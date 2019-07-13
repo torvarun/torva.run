@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [{ "src": "package.json", "use": "@now/static-build" }],
+  "alias": "chibicode.com",
+  "github": {
+    "silent": true
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}

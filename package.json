@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next -p 2019",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.14",
+    "@emotion/styled": "^10.0.14",
+    "next": "^9.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.2",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "@typescript-eslint/eslint-plugin": "1.x",
+    "@typescript-eslint/parser": "1.x",
+    "babel-eslint": "10.x",
+    "babel-plugin-emotion": "^10.0.14",
+    "eslint": "5.x",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-config-react-app": "^4.0.1",
+    "eslint-plugin-flowtype": "2.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "1.x",
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.3"
+  }
+}
