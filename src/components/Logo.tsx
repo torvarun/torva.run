@@ -13,7 +13,7 @@ const SvgShuLogoBoxed = (props: React.SVGProps<SVGSVGElement>) => (
     >
       <rect
         id="Rectangle"
-        stroke="#222222"
+        stroke="currentColor"
         strokeWidth={20}
         x={10}
         y={10}
@@ -24,7 +24,7 @@ const SvgShuLogoBoxed = (props: React.SVGProps<SVGSVGElement>) => (
       <g
         id="Sigma"
         transform="translate(125.000000, 100.000000)"
-        stroke="#222222"
+        stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth={20}

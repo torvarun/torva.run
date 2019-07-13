@@ -6,6 +6,7 @@ export default (theme: ThemeType) => css`
   html {
     font-size: ${theme.fontSizes.root};
     color: ${theme.colors.body};
+    line-height: 1.5;
   }
 
   body {

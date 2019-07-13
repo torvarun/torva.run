@@ -5,7 +5,7 @@ import DefaultLayout from 'src/components/DefaultLayout'
 export default function Index() {
   return (
     <Page>
-      <DefaultLayout>
+      <DefaultLayout useH1ForTitle>
         hello hello hello hello hello hello hello hello hello hello hello hello{' '}
         hello hello hello hello hello hello
       </DefaultLayout>

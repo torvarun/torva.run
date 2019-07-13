@@ -7,8 +7,18 @@ const theme = {
     body: '#555'
   },
   fontSizes: {
-    root: '16px',
-    rootNotSm: '20px'
+    root: '18px',
+    rootNotSm: '20px',
+    xs: '0.75rem',
+    sm: '0.875rem',
+    base: '1rem',
+    lg: '1.125rem',
+    xl: '1.25rem',
+    '2xl': '1.5rem',
+    '3xl': '1.875rem',
+    '4xl': '2.25rem',
+    '5xl': '3rem',
+    '6xl': '4rem'
   },
   fontFamilies: {
     sans: `"DM Sans", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';`
@@ -27,7 +37,9 @@ const theme = {
     7: '1.75rem',
     8: '2rem',
     10: '2.5rem',
-    12: '3rem'
+    12: '3rem',
+    14: '3.5rem',
+    16: '4rem'
   }
 }
 

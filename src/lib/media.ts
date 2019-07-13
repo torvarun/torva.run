@@ -1,6 +1,7 @@
 import { ThemeType } from 'src/lib/theme'
 
-const media = (t: ThemeType) => (breakpoint: keyof ThemeType['breakpoints']) =>
-  `@media screen and (min-width: ${t.breakpoints[breakpoint]})`
+const media = (theme: ThemeType) => (
+  breakpoint: keyof ThemeType['breakpoints']
+) => `@media screen and (min-width: ${theme.breakpoints[breakpoint]})`
 
 export default media
