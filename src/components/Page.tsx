@@ -29,6 +29,10 @@ export default function Page({ children }: { children: React.ReactNode }) {
             }}
           />
           <script async src="https://platform.twitter.com/widgets.js" />
+          <link
+            href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,700&display=optional"
+            rel="stylesheet"
+          ></link>
         </Head>
         <Favicon />
         {children}

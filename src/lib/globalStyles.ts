@@ -1,15 +1,20 @@
 import { css } from '@emotion/core'
-import theme from 'src/lib/theme'
+import { ThemeType } from 'src/lib/theme'
 import media from 'src/lib/media'
 
-export default (t: typeof theme) => css`
+export default (theme: ThemeType) => css`
   html {
-    font-size: ${t.fontSizes.root};
+    font-size: ${theme.fontSizes.root};
+    color: ${theme.colors.body};
   }
 
-  ${media(t)('sm')} {
+  body {
+    font-family: ${theme.fontFamilies.sans};
+  }
+
+  ${media(theme)('sm')} {
     html {
-      font-size: ${t.fontSizes.rootNotSm};
+      font-size: ${theme.fontSizes.rootNotSm};
     }
   }
 `

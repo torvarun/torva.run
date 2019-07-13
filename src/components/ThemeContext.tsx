@@ -1,6 +1,6 @@
 import { createContext } from 'react'
-import theme from 'src/lib/theme'
+import theme, { ThemeType } from 'src/lib/theme'
 
-const ThemeContext = createContext<typeof theme>(theme)
+const ThemeContext = createContext<ThemeType>(theme)
 
 export default ThemeContext
