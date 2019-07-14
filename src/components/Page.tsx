@@ -7,8 +7,7 @@ import Favicon from 'src/components/Favicon'
 import { GA_TRACKING_ID } from 'src/lib/gtag'
 
 const defaultTitle = 'Shu Uesugi'
-const ogImageUrl =
-  'https://en.chibicode.com/static/images/shu-logo-og-image.png'
+const ogImageUrl = 'https://chibicode.com/static/images/shu-logo-og-image.png'
 
 export default function Page({ children }: { children: React.ReactNode }) {
   return (
@@ -41,6 +40,8 @@ export default function Page({ children }: { children: React.ReactNode }) {
           <meta property="og:title" content={defaultTitle} />
           <meta property="og:type" content="website" />
           <meta property="og:image" content={ogImageUrl} />
+          <meta property="og:image:width" content="2400" />
+          <meta property="og:image:height" content="1260" />
         </Head>
         <Favicon />
         {children}
