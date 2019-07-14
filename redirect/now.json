@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "alias": ["www.chibicode.com"],
+  "alias": "www.chibicode.com",
+  "name": "www.chibicode.com",
   "routes": [
     {
       "src": "/(.*)",
       "status": 301,
       "headers": { "Location": "https://chibicode.com/$1" }
     }
-  ]
+  ],
+  "github": {
+    "silent": true
+  }
 }
