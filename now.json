@@ -213,10 +213,10 @@
       "headers": { "Location": "https://jp.chibicode.com/toefl-2016" }
     },
     {
-      "src": "/jp/(.*)",
+      "src": "/jp",
       "status": 301,
       "headers": {
-        "Location": "https://jp.chibicode.com/$1"
+        "Location": "https://jp.chibicode.com"
       }
     },
     {
