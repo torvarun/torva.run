@@ -12,6 +12,220 @@
     "silent": true
   },
   "routes": [
+    {
+      "src": "/engineer-type-shu-uesugi-4",
+      "status": 301,
+      "headers": {
+        "Location": "https://jp.chibicode.com/engineer-type-shu-uesugi-4"
+      }
+    },
+    {
+      "src": "/engineer-type-shu-uesugi-5",
+      "status": 301,
+      "headers": {
+        "Location": "https://jp.chibicode.com/engineer-type-shu-uesugi-5"
+      }
+    },
+    {
+      "src": "/glasses",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/glasses" }
+    },
+    {
+      "src": "/osaka",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/osaka" }
+    },
+    {
+      "src": "/voice-exit",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/voice-exit" }
+    },
+    {
+      "src": "/young-japanese-work-abroad",
+      "status": 301,
+      "headers": {
+        "Location": "https://jp.chibicode.com/young-japanese-work-abroad"
+      }
+    },
+    {
+      "src": "/japan",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/japan" }
+    },
+    {
+      "src": "/why-blog",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/why-blog" }
+    },
+    {
+      "src": "/doing-business-in-japan",
+      "status": 301,
+      "headers": {
+        "Location": "https://jp.chibicode.com/doing-business-in-japan"
+      }
+    },
+    {
+      "src": "/2-troubled-crusade-1",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/2-troubled-crusade-1" }
+    },
+    {
+      "src": "/3-troubled-crusade-1-5",
+      "status": 301,
+      "headers": {
+        "Location": "https://jp.chibicode.com/3-troubled-crusade-1-5"
+      }
+    },
+    {
+      "src": "/nikkei-bp",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/nikkei-bp" }
+    },
+    {
+      "src": "/silicon-valley-hell",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/silicon-valley-hell" }
+    },
+    {
+      "src": "/how-edsurge-started",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/how-edsurge-started" }
+    },
+    {
+      "src": "/sf-hell",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/sf-hell" }
+    },
+    {
+      "src": "/rebuild-fm",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/rebuild-fm" }
+    },
+    {
+      "src": "/yomikaki-soroban-monogatari",
+      "status": 301,
+      "headers": {
+        "Location": "https://jp.chibicode.com/yomikaki-soroban-monogatari"
+      }
+    },
+    {
+      "src": "/nhk-dilemma",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/nhk-dilemma" }
+    },
+    {
+      "src": "/tanpopo-anne-nintendo",
+      "status": 301,
+      "headers": {
+        "Location": "https://jp.chibicode.com/tanpopo-anne-nintendo"
+      }
+    },
+    {
+      "src": "/jp-sv-internship",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/jp-sv-internship" }
+    },
+    {
+      "src": "/hiking-in-silicon-valley-san-francisco",
+      "status": 301,
+      "headers": {
+        "Location": "https://jp.chibicode.com/hiking-in-silicon-valley-san-francisco"
+      }
+    },
+    {
+      "src": "/silicon-valley-history",
+      "status": 301,
+      "headers": {
+        "Location": "https://jp.chibicode.com/silicon-valley-history"
+      }
+    },
+    {
+      "src": "/presidential-bingo",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/presidential-bingo" }
+    },
+    {
+      "src": "/translate-first",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/translate-first" }
+    },
+    {
+      "src": "/betsy-anecdotes",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/betsy-anecdotes" }
+    },
+    {
+      "src": "/1-introduction",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/1-introduction" }
+    },
+    {
+      "src": "/2-cs-vs-programming",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/2-cs-vs-programming" }
+    },
+    {
+      "src": "/3-edtech-hype-cycle",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/3-edtech-hype-cycle" }
+    },
+    {
+      "src": "/satsuki",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/satsuki" }
+    },
+    {
+      "src": "/4-too-many-choices",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/4-too-many-choices" }
+    },
+    {
+      "src": "/5-adaptive-learning",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/5-adaptive-learning" }
+    },
+    {
+      "src": "/6-edsurge-concierge",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/6-edsurge-concierge" }
+    },
+    {
+      "src": "/7-100-women-cs-teachers-america",
+      "status": 301,
+      "headers": {
+        "Location": "https://jp.chibicode.com/7-100-women-cs-teachers-america"
+      }
+    },
+    {
+      "src": "/trump-reactions",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/trump-reactions" }
+    },
+    {
+      "src": "/the-prize",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/the-prize" }
+    },
+    {
+      "src": "/toefl-2016",
+      "status": 301,
+      "headers": { "Location": "https://jp.chibicode.com/toefl-2016" }
+    },
+    {
+      "src": "/jp/(.*)",
+      "status": 301,
+      "headers": {
+        "Location": "https://jp.chibicode.com/$1"
+      }
+    },
+    {
+      "src": "/jp/(.*)",
+      "status": 301,
+      "headers": {
+        "Location": "https://jp.chibicode.com/$1"
+      }
+    },
     { "handle": "filesystem" },
     { "src": "/.*", "status": 404, "dest": "404.html" }
   ]

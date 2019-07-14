@@ -5,6 +5,7 @@
   },
   "scripts": {
     "dev": "next -p 2019",
+    "now-dev": "next -p $PORT",
     "now-build": "next build && next export -o dist",
     "start": "next start",
     "tsc": "tsc",
