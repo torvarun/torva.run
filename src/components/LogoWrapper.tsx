@@ -20,6 +20,9 @@ function LogoWrapper() {
       <a
         onMouseEnter={mouseEnter}
         onMouseLeave={mouseLeave}
+        onTouchStart={mouseEnter}
+        onTouchCancel={mouseLeave}
+        onTouchEnd={mouseLeave}
         css={css`
           text-decoration: none;
         `}
@@ -27,16 +30,19 @@ function LogoWrapper() {
         <Logo
           fill={hover ? theme.colors.yellow : 'none'}
           css={css`
+            position: relative;
+            z-index: 1;
             height: 1.5em;
             vertical-align: middle;
-            margin-right: ${theme.spaces[1]};
           `}
         />
         <span
           css={css`
             vertical-align: middle;
             display: inline-block;
-            padding: 0 ${theme.spaces[1]};
+            padding: 0 ${theme.spaces[2]} 0 ${theme.spaces[3]};
+            margin-left: ${theme.spaces['-1']};
+            background: ${hover ? theme.colors.yellow : 'none'};
           `}
         >
           Shu Uesugi

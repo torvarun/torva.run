@@ -4,6 +4,7 @@
     "dev": "next -p 2019",
     "build": "next build && next export",
     "start": "next start",
+    "tsc": "tsc",
     "logo": "svgr --no-svgo --filename-case kebab --no-dimensions static/images/shu-logo-boxed.svg > src/components/Logo.tsx && eslint --ext .tsx --fix src/components/Logo.tsx && sed -i 's/#222222/currentColor/g' src/components/Logo.tsx && sed -i 's/fill=\"none\"/fill={props.fill}/g' src/components/Logo.tsx"
   },
   "dependencies": {
@@ -14,6 +15,8 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "@mdx-js/loader": "^1.0.27",
+    "@next/mdx": "^9.0.1",
     "@svgr/cli": "^4.3.1",
     "@types/node": "^12.6.2",
     "@types/react": "^16.8.23",

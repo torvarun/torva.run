@@ -6,6 +6,9 @@ import theme from 'src/lib/theme'
 import Favicon from 'src/components/Favicon'
 import { GA_TRACKING_ID } from 'src/lib/gtag'
 
+const defaultTitle = 'Shu Uesugi'
+const ogImageUrl = 'https://chibicode.com/static/images/shu-logo-og-image.png'
+
 export default function Page({ children }: { children: React.ReactNode }) {
   return (
     <ThemeContext.Provider value={theme}>
@@ -33,6 +36,10 @@ export default function Page({ children }: { children: React.ReactNode }) {
             href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,700&display=optional"
             rel="stylesheet"
           ></link>
+          <title>{defaultTitle}</title>
+          <meta property="og:title" content={defaultTitle} />
+          <meta property="og:type" content="website" />
+          <meta property="og:image" content={ogImageUrl} />
         </Head>
         <Favicon />
         {children}

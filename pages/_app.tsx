@@ -6,6 +6,7 @@ import reloadTwitterScript from 'src/lib/reloadTwitterScript'
 Router.events.on('routeChangeStart', () => {
   reloadTwitterScript()
 })
+
 Router.events.on('routeChangeComplete', (path: string) => {
   pageview(path)
 })

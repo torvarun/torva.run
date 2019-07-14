@@ -1,15 +1,15 @@
 import React from 'react'
 import Page from 'src/components/Page'
 import DefaultLayout from 'src/components/DefaultLayout'
-import About from 'src/contents/About.mdx'
 import MDXWrapper from 'src/components/MDXWrapper'
+import NotFound from 'src/contents/NotFound.mdx'
 
-export default function Index() {
+export default function Error() {
   return (
     <Page>
-      <DefaultLayout>
+      <DefaultLayout title="Page Not Found">
         <MDXWrapper>
-          <About />
+          <NotFound />
         </MDXWrapper>
       </DefaultLayout>
     </Page>

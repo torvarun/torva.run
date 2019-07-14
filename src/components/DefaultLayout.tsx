@@ -2,43 +2,46 @@
 import { css, jsx } from '@emotion/core'
 import useThemeContext from 'src/hooks/useThemeContext'
 import media from 'src/lib/media'
-import LogoWrapper from 'src/components/LogoWrapper'
+import Container from 'src/components/Container'
+import HeaderBar from 'src/components/HeaderBar'
 
 export default function DefaultLayout({
   children,
-  useH1ForTitle
+  title
 }: {
   children: React.ReactNode
-  useH1ForTitle: boolean
+  title: React.ReactNode
 }) {
   const theme = useThemeContext()
-  const Title = useH1ForTitle ? 'h1' : 'h2'
+
   return (
     <div
       css={css`
-        max-width: ${theme.maxWidths.md};
-        margin: ${theme.spaces[12]} auto;
-        padding: 0 ${theme.spaces[4]};
-
+        margin: ${theme.spaces[12]} 0;
         ${media(theme)('sm')} {
-          margin: ${theme.spaces[16]} auto;
+          margin: ${theme.spaces[16]} 0;
         }
       `}
     >
-      <Title
-        css={css`
-          font-size: ${theme.fontSizes['2xl']};
-          margin: 0 0 ${theme.spaces[12]};
-          color: ${theme.colors.heading};
-        `}
-      >
-        <LogoWrapper />
-      </Title>
-      {children}
+      <Container maxWidth="md">
+        <HeaderBar useH1ForTitle={!title} />
+        {title && (
+          <h1
+            css={css`
+              margin: 0 0 ${theme.spaces[4]};
+              font-size: ${theme.fontSizes['3xl']};
+              letter-spacing: ${theme.letterSpacings.tight};
+            `}
+          >
+            {title}
+          </h1>
+        )}
+        {children}
+      </Container>
     </div>
   )
 }
 
 DefaultLayout.defaultProps = {
-  useH1ForTitle: false
+  title: false
 }

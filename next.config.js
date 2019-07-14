@@ -1,4 +1,5 @@
 const path = require('path')
+const withMDX = require('@next/mdx')()
 
 const config = {
   webpack(config) {
@@ -7,7 +8,11 @@ const config = {
     })
 
     return config
+  },
+
+  experimental: {
+    publicDirectory: true
   }
 }
 
-module.exports = config
+module.exports = withMDX(config)
