@@ -4,7 +4,8 @@ const theme = {
   },
   colors: {
     heading: '#222',
-    body: '#555'
+    body: '#555',
+    yellow: '#FFEB3B'
   },
   fontSizes: {
     root: '18px',

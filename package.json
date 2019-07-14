@@ -4,7 +4,7 @@
     "dev": "next -p 2019",
     "build": "next build && next export",
     "start": "next start",
-    "logo": "svgr --no-svgo --filename-case kebab --no-dimensions static/images/shu-logo-boxed.svg > src/components/Logo.tsx && eslint --ext .tsx --fix src/components/Logo.tsx && sed -i 's/#222222/currentColor/g' src/components/Logo.tsx"
+    "logo": "svgr --no-svgo --filename-case kebab --no-dimensions static/images/shu-logo-boxed.svg > src/components/Logo.tsx && eslint --ext .tsx --fix src/components/Logo.tsx && sed -i 's/#222222/currentColor/g' src/components/Logo.tsx && sed -i 's/fill=\"none\"/fill={props.fill}/g' src/components/Logo.tsx"
   },
   "dependencies": {
     "@emotion/core": "^10.0.14",

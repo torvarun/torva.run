@@ -18,4 +18,8 @@ export default (theme: ThemeType) => css`
       font-size: ${theme.fontSizes.rootNotSm};
     }
   }
+
+  a {
+    color: inherit;
+  }
 `

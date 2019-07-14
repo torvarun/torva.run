@@ -2,7 +2,7 @@
 import { css, jsx } from '@emotion/core'
 import useThemeContext from 'src/hooks/useThemeContext'
 import media from 'src/lib/media'
-import Logo from 'src/components/Logo'
+import LogoWrapper from 'src/components/LogoWrapper'
 
 export default function DefaultLayout({
   children,
@@ -32,20 +32,7 @@ export default function DefaultLayout({
           color: ${theme.colors.heading};
         `}
       >
-        <Logo
-          css={css`
-            height: 1.5em;
-            vertical-align: middle;
-            margin-right: ${theme.spaces[2]};
-          `}
-        />
-        <span
-          css={css`
-            vertical-align: middle;
-          `}
-        >
-          Shu Uesugi
-        </span>
+        <LogoWrapper />
       </Title>
       {children}
     </div>
