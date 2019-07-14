@@ -6,8 +6,8 @@
       "use": "@now/static-build"
     }
   ],
-  "alias": "en.chibicode.com",
-  "name": "en.chibicode.com",
+  "alias": "chibicode.com",
+  "name": "chibicode.com",
   "github": {
     "silent": true
   }
