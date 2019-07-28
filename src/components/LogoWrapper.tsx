@@ -1,34 +1,29 @@
 /** @jsx jsx */
 import { css, jsx } from '@emotion/core'
-import { useState } from 'react'
 import Link from 'next/link'
 import useThemeContext from 'src/hooks/useThemeContext'
 import Logo from 'src/components/Logo'
 
 function LogoWrapper() {
   const theme = useThemeContext()
-  const [hover, setHover] = useState(false)
-  const mouseEnter = () => {
-    setHover(true)
-  }
-  const mouseLeave = () => {
-    setHover(false)
-  }
 
   return (
     <Link href="/" passHref>
       <a
-        onMouseEnter={mouseEnter}
-        onMouseLeave={mouseLeave}
-        onTouchStart={mouseEnter}
-        onTouchCancel={mouseLeave}
-        onTouchEnd={mouseLeave}
         css={css`
           text-decoration: none;
+          display: inline-block;
+          line-height: 1;
+          padding: ${theme.spaces[2]};
+          margin: ${theme.spaces[-2]};
+          border-radius: ${theme.radii.md};
+
+          &:hover {
+            background: ${theme.colors.yellow};
+          }
         `}
       >
         <Logo
-          fill={hover ? theme.colors.yellow : 'none'}
           css={css`
             position: relative;
             z-index: 1;
@@ -40,9 +35,7 @@ function LogoWrapper() {
           css={css`
             vertical-align: middle;
             display: inline-block;
-            padding: 0 ${theme.spaces[2]} 0 ${theme.spaces[3]};
-            margin-left: ${theme.spaces['-1']};
-            background: ${hover ? theme.colors.yellow : 'none'};
+            padding-left: ${theme.spaces[2]};
           `}
         >
           Shu Uesugi

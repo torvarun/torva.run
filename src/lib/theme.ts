@@ -1,3 +1,4 @@
+// https://system-ui.com/theme/
 const theme = {
   breakpoints: {
     sm: '768px'
@@ -29,6 +30,9 @@ const theme = {
   },
   maxWidths: {
     md: '32rem'
+  },
+  radii: {
+    md: '0.25rem'
   },
   spaces: {
     '-1': '-0.25rem',

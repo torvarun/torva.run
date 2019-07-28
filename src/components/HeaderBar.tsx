@@ -36,6 +36,11 @@ export default function HeaderBar({
           color: ${theme.colors.heading};
           text-decoration: none;
           font-weight: bold;
+          display: inline-block;
+          line-height: 1;
+          padding: ${theme.spaces[2]};
+          margin: ${theme.spaces[-2]};
+          border-radius: ${theme.radii.md};
 
           &:hover {
             background: ${theme.colors.yellow};

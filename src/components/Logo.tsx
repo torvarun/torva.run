@@ -1,10 +1,6 @@
 import * as React from 'react'
 
-const SvgShuLogoBoxed = (
-  props: React.SVGProps<SVGSVGElement> & {
-    fill: string
-  }
-) => (
+const SvgShuLogoBoxed = (props: React.SVGProps<SVGSVGElement>) => (
   <svg viewBox="0 0 400 400" {...props}>
     <title>{'shu-logo-boxed'}</title>
     <desc>{'Created with Sketch.'}</desc>
@@ -12,7 +8,7 @@ const SvgShuLogoBoxed = (
       id="shu-logo-boxed"
       stroke="none"
       strokeWidth={1}
-      fill={props.fill}
+      fill="none"
       fillRule="evenodd"
     >
       <rect
