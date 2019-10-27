@@ -4,7 +4,6 @@ import GlobalStyles from 'src/components/GlobalStyles'
 import ThemeContext from 'src/components/ThemeContext'
 import theme from 'src/lib/theme'
 import Favicon from 'src/components/Favicon'
-import { GA_TRACKING_ID } from 'src/lib/gtag'
 
 const defaultTitle = 'Shu Uesugi'
 const ogImageUrl = 'https://chibicode.com/static/images/shu-logo-og-image.png'
@@ -17,19 +16,6 @@ export default function Page({ children }: { children: React.ReactNode }) {
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
-          />
-          <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', '${GA_TRACKING_ID}', { 'anonymize_ip': true });`
-            }}
           />
           <script async src="https://platform.twitter.com/widgets.js" />
           <link
