@@ -1,15 +1,15 @@
 import React from 'react'
 import Page from 'src/components/Page'
 import DefaultLayout from 'src/components/DefaultLayout'
-import About from 'src/contents/About.mdx'
+import Index from 'src/contents/Index.mdx'
 import MDXWrapper from 'src/components/MDXWrapper'
 
-export default function Index() {
+export default function IndexPage() {
   return (
     <Page>
       <DefaultLayout>
         <MDXWrapper>
-          <About />
+          <Index />
         </MDXWrapper>
       </DefaultLayout>
     </Page>

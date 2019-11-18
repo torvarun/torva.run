@@ -12,11 +12,11 @@ function A(props: React.AnchorHTMLAttributes<HTMLAnchorElement>) {
       background: ${theme.colors.yellow};
     }
   `
-  if (href && href.match(/^(http|mailto)/)) {
+  if (href && /^(http|mailto)/.exec(href)) {
     return <a css={linkCss} {...props} />
   } else {
     return (
-      <Link href={href} passHref>
+      <Link href={href || '#'} passHref>
         <a css={linkCss} {...rest}></a>
       </Link>
     )
