@@ -10,7 +10,7 @@
     "start": "next start",
     "tsc": "tsc",
     "logo": "svgr --no-svgo --filename-case kebab --no-dimensions static/images/shu-logo-boxed.svg > src/components/Logo.tsx && eslint --ext .tsx --fix src/components/Logo.tsx && sed -i 's/#222222/currentColor/g' src/components/Logo.tsx && sed -i 's/fill=\"none\"/fill={props.fill}/g' src/components/Logo.tsx",
-    "deploy": "now --production"
+    "deploy": "now --prod"
   },
   "dependencies": {
     "@emotion/core": "^10.0.22",
