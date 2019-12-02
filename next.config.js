@@ -9,10 +9,7 @@ const config = {
 
     return config
   },
-
-  experimental: {
-    publicDirectory: true
-  }
+  exportTrailingSlash: true
 }
 
 module.exports = withMDX(config)
