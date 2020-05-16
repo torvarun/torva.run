@@ -3,7 +3,7 @@ import Layout from 'src/components/Layout'
 import postGetStaticProps, { PostBaseProps } from 'src/lib/postGetStaticProps'
 import Head from 'next/head'
 import { SITE_TITLE, SITE_URL, SITE_DESCRIPTION } from 'src/lib/constants'
-import { E, A, H2, H3, Ul, Li } from 'src/components/Tags'
+import { E, A, H3, Ul, Li } from 'src/components/Tags'
 import PostTitle from 'src/components/PostTitle'
 
 export const getStaticProps = postGetStaticProps(Page)
