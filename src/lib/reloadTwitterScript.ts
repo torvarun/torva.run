@@ -1,11 +1,3 @@
-declare global {
-  interface Window {
-    twttr: any
-    __twttr: any
-  }
-}
-
-// Without this, page transition causes an error like:
 //  __twttr.callbacks.cb0 is not a function
 const reloadTwitterScript = () => {
   window.twttr = window.__twttr = {}

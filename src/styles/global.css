@@ -1,0 +1,23 @@
+@tailwind base;
+
+@media (min-width: 640px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+::selection {
+  /* yellow-400 */
+  background: #f6e05e;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+.mono-styles {
+  @apply uppercase tracking-mono-wide text-mono-xs font-mono;
+}
+
+.hover-border-styles {
+  @apply transition-colors duration-300 border-transparent border-b-4;
+}

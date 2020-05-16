@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Iosevka Slab Web';
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  src: url('/iosevka/woff2/iosevka-slab-regular.woff2') format('woff2'),
+    url('/iosevka/woff/iosevka-slab-regular.woff') format('woff'),
+    url('/iosevka/ttf/iosevka-slab-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Iosevka Slab Web';
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  src: url('/iosevka/woff2/iosevka-slab-bold.woff2') format('woff2'),
+    url('/iosevka/woff/iosevka-slab-bold.woff') format('woff'),
+    url('/iosevka/ttf/iosevka-slab-bold.ttf') format('truetype');
+}
