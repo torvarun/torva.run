@@ -2,7 +2,7 @@ import React from 'react'
 import NextLink from 'next/link'
 
 function ExternalLink(props: JSX.IntrinsicElements['a']) {
-  return <a target="_blank" rel="noopener" {...props} />
+  return <a target="_blank" rel="noopener noreferrer" {...props} />
 }
 
 export default function Link({
