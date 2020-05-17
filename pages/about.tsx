@@ -36,7 +36,7 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
             Product Engineer at <A href="https://vercel.com">Vercel</A>.
           </Li>
           <Li>
-            Japanese co-translator for{' '}
+            Co-translator (EN → JP) for{' '}
             <A href="https://www.amazon.com/Factfulness-Reasons-World-Things-Better/dp/1250107814">
               “Factfulness”
             </A>{' '}
