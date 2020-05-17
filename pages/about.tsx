@@ -19,6 +19,43 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
         <meta property="og:description" content={SITE_DESCRIPTION} />
         <meta name="description" content={SITE_DESCRIPTION} />
         <meta property="og:image" content={`${SITE_URL}/images/og.png`} />
+        {/* Preload */}
+        <link
+          rel="preload"
+          href="https://chibicode.com/inter/Inter-Bold.woff2?3.13"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="https://chibicode.com/inter/Inter-Regular.woff2?3.13"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="https://chibicode.com/iosevka/woff2/iosevka-slab-regular.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+        {/* Prefetch */}
+        <link
+          rel="prefetch"
+          href="https://chibicode.com/inter/Inter-Italic.woff2?3.13"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="prefetch"
+          href="https://chibicode.com/iosevka/woff2/iosevka-slab-bold.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
       </Head>
       <section className="leading-relaxed">
         <div className="my-16">
