@@ -1,4 +1,4 @@
-# [https://chibicode.com/](https://chibicode.com/)
+# 👞 [https://chibicode.com/](https://chibicode.com/) 🥃
 
 ## Development
 
