@@ -38,38 +38,33 @@ export default function Post({ href, children }: Props) {
         {/* Preload */}
         <link
           rel="preload"
-          href="https://chibicode.com/inter/Inter-Bold.woff2?3.13"
+          href="/inter/Inter-Bold.woff2?3.13"
           as="font"
           type="font/woff2"
-          crossOrigin="anonymous"
         />
         <link
           rel="preload"
-          href="https://chibicode.com/inter/Inter-Regular.woff2?3.13"
+          href="/inter/Inter-Regular.woff2?3.13"
           as="font"
           type="font/woff2"
-          crossOrigin="anonymous"
         />
         <link
           rel="preload"
-          href="https://chibicode.com/iosevka/woff2/iosevka-slab-regular.woff2"
+          href="/iosevka/woff2/iosevka-slab-regular.woff2"
           as="font"
           type="font/woff2"
-          crossOrigin="anonymous"
         />
         <link
           rel="preload"
-          href="https://chibicode.com/inter/Inter-Italic.woff2?3.13"
+          href="/inter/Inter-Italic.woff2?3.13"
           as="font"
           type="font/woff2"
-          crossOrigin="anonymous"
         />
         <link
           rel="preload"
-          href="https://chibicode.com/iosevka/woff2/iosevka-slab-bold.woff2"
+          href="/iosevka/woff2/iosevka-slab-bold.woff2"
           as="font"
           type="font/woff2"
-          crossOrigin="anonymous"
         />
       </Head>
       <article className="py-4 my-12">
