@@ -87,13 +87,13 @@ export default function Post({ href, children }: Props) {
         </div>
       </article>
       <div className="py-16">
-        <P className="text-center text-sm">Thanks for reading!</P>
+        <P className="text-center">Thanks for reading!</P>
         <div className="my-6 flex justify-center text-2xl" role="separator">
           <Emoji className="mx-2">🥃</Emoji>
           <Emoji className="mx-2">🥃</Emoji>
           <Emoji className="mx-2">🥃</Emoji>
         </div>
-        <P className="text-center text-sm">
+        <P className="text-center">
           <A href="/about">Learn more about the author here</A>.
         </P>
       </div>
