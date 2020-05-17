@@ -1,4 +1,5 @@
 import React from 'react'
+import cn from 'classnames'
 import Link from 'src/components/Link'
 import { Props as LayoutProps } from 'src/components/Layout'
 
@@ -8,7 +9,12 @@ type Props = {
 
 export default function Footer({ type }: Props) {
   return (
-    <footer className="pt-16 flex justify-between mono-styles">
+    <footer
+      className={cn('pt-16 flex mono-styles', {
+        'justify-center': type === 'home',
+        'justify-between': type !== 'home',
+      })}
+    >
       {type !== 'home' && (
         <Link
           href="/"

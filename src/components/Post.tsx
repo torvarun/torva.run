@@ -3,7 +3,7 @@ import postData from 'src/contents/postDataTyped'
 import Date from 'src/components/Date'
 import PostTitle from 'src/components/PostTitle'
 import Emoji from 'src/components/Emoji'
-import { P, Img } from 'src/components/Tags'
+import { P, A, Img } from 'src/components/Tags'
 import FeaturedPostLink from 'src/components/FeaturedPostLink'
 import posts from 'src/contents/postsTyped'
 import Head from 'next/head'
@@ -93,7 +93,9 @@ export default function Post({ href, children }: Props) {
           <Emoji className="mx-2">🥃</Emoji>
           <Emoji className="mx-2">🥃</Emoji>
         </div>
-        <P className="text-center text-sm">↓ Here are some other articles ↓</P>
+        <P className="text-center text-sm">
+          <A href="/about">Learn more about the author here</A>.
+        </P>
       </div>
       {posts
         .filter((featuredPost) => href !== featuredPost.href)
