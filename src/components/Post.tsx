@@ -35,6 +35,37 @@ export default function Post({ href, children }: Props) {
             postData[href]['ogImage'] || '/images/og.png'
           }`}
         />
+        {/* Preload */}
+        <link
+          rel="preload"
+          href="/inter/Inter-Bold.woff2?3.13"
+          as="font"
+          type="font/woff2"
+        />
+        <link
+          rel="preload"
+          href="/inter/Inter-Regular.woff2?3.13"
+          as="font"
+          type="font/woff2"
+        />
+        <link
+          rel="preload"
+          href="/iosevka/woff2/iosevka-slab-regular.woff2"
+          as="font"
+          type="font/woff2"
+        />
+        <link
+          rel="preload"
+          href="/inter/Inter-Italic.woff2?3.13"
+          as="font"
+          type="font/woff2"
+        />
+        <link
+          rel="preload"
+          href="/iosevka/woff2/iosevka-slab-bold.woff2"
+          as="font"
+          type="font/woff2"
+        />
       </Head>
       <article className="py-4 my-12">
         <Date date={postData[href]['date']} />

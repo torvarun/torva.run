@@ -19,13 +19,45 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
         <meta property="og:description" content={SITE_DESCRIPTION} />
         <meta name="description" content={SITE_DESCRIPTION} />
         <meta property="og:image" content={`${SITE_URL}/images/og.png`} />
+        {/* Preload */}
+        <link
+          rel="preload"
+          href="/inter/Inter-Bold.woff2?3.13"
+          as="font"
+          type="font/woff2"
+        />
+        <link
+          rel="preload"
+          href="/inter/Inter-Regular.woff2?3.13"
+          as="font"
+          type="font/woff2"
+        />
+        <link
+          rel="preload"
+          href="/iosevka/woff2/iosevka-slab-regular.woff2"
+          as="font"
+          type="font/woff2"
+        />
+        {/* Prefetch */}
+        <link
+          rel="prefetch"
+          href="/inter/Inter-Italic.woff2?3.13"
+          as="font"
+          type="font/woff2"
+        />
+        <link
+          rel="prefetch"
+          href="/iosevka/woff2/iosevka-slab-bold.woff2"
+          as="font"
+          type="font/woff2"
+        />
       </Head>
       <section className="leading-relaxed">
         <div className="my-16">
           <img
             src="/images/chibicode.jpg"
             alt="Shu Uesugi"
-            className="rounded-full w-56 block mx-auto shadow-soft"
+            className="rounded-full w-56 h-56 block mx-auto shadow-soft"
           />
         </div>
         <h1>
