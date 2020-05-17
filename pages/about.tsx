@@ -52,6 +52,7 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
             </A>
             .
           </Li>
+          <Li>Time zone: Pacific Time.</Li>
         </Ul>
         <H3>Links</H3>
         <Ul>

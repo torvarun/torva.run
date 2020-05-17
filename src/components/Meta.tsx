@@ -48,10 +48,6 @@ export default function Meta({ type }: Props) {
       <meta name="msapplication-TileColor" content="#f6e05e" />
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#ffffff" />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
-        rel="stylesheet"
-      ></link>
     </Head>
   )
 }
