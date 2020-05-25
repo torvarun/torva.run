@@ -10,7 +10,6 @@ type Props = {
 export default function Meta({ type }: Props) {
   return (
     <Head>
-      <meta property="og:type" content="article" />
       <meta property="og:locale" content="en_US" />
       <meta
         property="og:type"

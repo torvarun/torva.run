@@ -10,12 +10,28 @@ type Props = {
 
 export default function Header({ type }: Props) {
   return (
-    <header className="pb-4">
+    <header>
       {type === 'home' && (
-        <div className="text-center pb-1 text-5xl">
-          <Emoji className="pr-1">👞</Emoji>
-          <Emoji className="pl-1">🥃</Emoji>
-        </div>
+        <>
+          <div className="flex justify-between mb-12">
+            <Link
+              href="https://twitter.com/chibicode"
+              className="hover-border-styles mono-styles inline-flex pb-1 hv:hover:border-yellow-400"
+            >
+              @chibicode
+            </Link>
+            <Link
+              href="/about"
+              className="hover-border-styles mono-styles inline-flex pb-1 hv:hover:border-yellow-400"
+            >
+              About
+            </Link>
+          </div>
+          <div className="text-center pb-1 text-5xl">
+            <Emoji className="pr-1">👞</Emoji>
+            <Emoji className="pl-1">🥃</Emoji>
+          </div>
+        </>
       )}
       <div
         className={cn('flex', {
@@ -34,12 +50,17 @@ export default function Header({ type }: Props) {
             </span>
           </Link>
         )}
-        <Link
-          href="https://twitter.com/chibicode"
-          className="hover-border-styles mono-styles inline-flex pb-1 hv:hover:border-yellow-400"
-        >
-          @chibicode
-        </Link>
+        {type === 'home' && (
+          <span className="mono-styles inline-flex pb-1">Shu Uesugi</span>
+        )}
+        {type !== 'home' && type !== 'about' && (
+          <Link
+            href="/about"
+            className="hover-border-styles mono-styles inline-flex pb-1 hv:hover:border-yellow-400"
+          >
+            About
+          </Link>
+        )}
       </div>
     </header>
   )

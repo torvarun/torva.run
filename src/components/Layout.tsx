@@ -14,7 +14,7 @@ export type Props = {
 export default function Layout({ children, type, emojiToSvg }: Props) {
   return (
     <EmojiToSvgContext.Provider value={emojiToSvg}>
-      <div className="max-w-xl mx-auto px-4 py-16 text-gray-900">
+      <div className="max-w-xl mx-auto px-4 pt-8 pb-16 text-gray-900">
         <Meta type={type} />
         <Header type={type} />
         {children}
