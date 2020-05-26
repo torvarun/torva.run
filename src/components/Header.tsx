@@ -50,9 +50,7 @@ export default function Header({ type }: Props) {
             </span>
           </Link>
         )}
-        {type === 'home' && (
-          <span className="mono-styles inline-flex pb-1">Shu Uesugi</span>
-        )}
+        {type === 'home' && <h1 className="inline-flex pb-1">Shu Uesugi</h1>}
         {type !== 'home' && type !== 'about' && (
           <Link
             href="/about"
