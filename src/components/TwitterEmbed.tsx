@@ -26,18 +26,15 @@ const TwitterEmbed = ({ id, hideCard, hideConversation }: Props) => {
         wrapperEl.current &&
         !twitterLoaded
       ) {
+        setTwitterLoaded(true)
         wrapperEl.current.innerHTML = ''
-        window.twttr.widgets
-          .createTweet(id, wrapperEl.current, {
-            dnt: true,
-            cards: hideCard ? 'hidden' : undefined,
-            lang: 'ja',
-            align: 'center',
-            conversation: hideConversation ? 'none' : undefined,
-          })
-          .then(() => {
-            setTwitterLoaded(true)
-          })
+        window.twttr.widgets.createTweet(id, wrapperEl.current, {
+          dnt: true,
+          cards: hideCard ? 'hidden' : undefined,
+          lang: 'ja',
+          align: 'center',
+          conversation: hideConversation ? 'none' : undefined,
+        })
       }
     },
     twitterLoaded ? null : EMBED_DELAY
