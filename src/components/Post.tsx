@@ -1,5 +1,6 @@
 import React from 'react'
 import postData from 'src/contents/postDataTyped'
+import cn from 'classnames'
 import Date from 'src/components/Date'
 import PostTitle from 'src/components/PostTitle'
 import Emoji from 'src/components/Emoji'
@@ -72,7 +73,11 @@ export default function Post({ href, children }: Props) {
         <h1 className="mb-3">
           <PostTitle>{postData[href]['title']}</PostTitle>
         </h1>
-        <h4 className="leading-relaxed font-sans text-sm">
+        <h4
+          className={cn('leading-loose font-sans text-sm', {
+            'mb-12': !postData[href]['ogImage'],
+          })}
+        >
           {postData[href]['description']}
         </h4>
         <div className="leading-relaxed">

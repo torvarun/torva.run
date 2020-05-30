@@ -17,7 +17,6 @@
         "plugin:import/typescript",
         "plugin:react/recommended",
         "plugin:react-hooks/recommended",
-        "plugin:@typescript-eslint/eslint-recommended",
         "plugin:@typescript-eslint/recommended",
         "prettier",
         "prettier/@typescript-eslint",
@@ -29,7 +28,7 @@
         "@typescript-eslint/no-use-before-define": "off",
         "@typescript-eslint/no-non-null-assertion": "off",
         "@typescript-eslint/no-empty-interface": "off",
-        "@typescript-eslint/ban-ts-ignore": "off",
+        "@typescript-eslint/ban-ts-comment": "off",
         "import/default": "off",
         "import/no-duplicates": "off",
         "import/no-named-as-default": "off"
