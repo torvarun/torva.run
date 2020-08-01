@@ -31,7 +31,8 @@
         "@typescript-eslint/ban-ts-comment": "off",
         "import/default": "off",
         "import/no-duplicates": "off",
-        "import/no-named-as-default": "off"
+        "import/no-named-as-default": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off"
       },
       "settings": {
         "import/parsers": {
