@@ -1,3 +1,3 @@
-export const SITE_TITLE = 'Shu Uesugi'
-export const SITE_URL = 'https://chibicode.com'
-export const SITE_DESCRIPTION = '👞 @chibicode 🥃'
+export const SITE_TITLE = 'torvarun'
+export const SITE_URL = 'https://torva.run'
+export const SITE_DESCRIPTION = '@torvarun'
