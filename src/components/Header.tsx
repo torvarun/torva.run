@@ -15,10 +15,10 @@ export default function Header({ type }: Props) {
         <>
           <div className="flex justify-between mb-12">
             <Link
-              href="https://twitter.com/chibicode"
+              href="https://twitter.com/torvarun"
               className="hover-border-styles mono-styles inline-flex pb-1 hv:hover:border-yellow-400"
             >
-              @chibicode
+              @torvarun
             </Link>
             <Link
               href="/about"
@@ -27,10 +27,12 @@ export default function Header({ type }: Props) {
               About
             </Link>
           </div>
+          { /*
           <div className="text-center pb-2 text-5xl">
-            <Emoji className="pr-1">👞</Emoji>
+            <Emoji className="pr-1">🏃</Emoji>
             <Emoji className="pl-1">🥃</Emoji>
           </div>
+             */ }
         </>
       )}
       <div
@@ -41,16 +43,18 @@ export default function Header({ type }: Props) {
       >
         {type !== 'home' && (
           <Link href="/" className="group">
+            { /*
             <span className="block text-3xl pb-3">
-              <Emoji className="pr-1">👞</Emoji>
+              <Emoji className="pr-1">🏃</Emoji>
               <Emoji className="pl-1">🥃</Emoji>
             </span>
+               */ }
             <span className="mono-styles block pb-1 hover-border-styles hv:group-hover:border-yellow-400">
               ← Home
             </span>
           </Link>
         )}
-        {type === 'home' && <h1 className="inline-flex pb-1">Shu Uesugi</h1>}
+        {type === 'home' && <h1 className="inline-flex pb-1">Varun Venkataramanan</h1>}
         {type !== 'home' && type !== 'about' && (
           <Link
             href="/about"
