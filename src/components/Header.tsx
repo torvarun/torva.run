@@ -16,13 +16,13 @@ export default function Header({ type }: Props) {
           <div className="flex justify-between mb-12">
             <Link
               href="https://twitter.com/torvarun"
-              className="hover-border-styles mono-styles inline-flex pb-1 hv:hover:border-yellow-400"
+              className="hover-border-styles mono-styles inline-flex pb-1 hv:hover:border-green-400"
             >
               @torvarun
             </Link>
             <Link
               href="/about"
-              className="hover-border-styles mono-styles inline-flex pb-1 hv:hover:border-yellow-400"
+              className="hover-border-styles mono-styles inline-flex pb-1 hv:hover:border-green-400"
             >
               About
             </Link>
@@ -49,7 +49,7 @@ export default function Header({ type }: Props) {
               <Emoji className="pl-1">🥃</Emoji>
             </span>
                */ }
-            <span className="mono-styles block pb-1 hover-border-styles hv:group-hover:border-yellow-400">
+            <span className="mono-styles block pb-1 hover-border-styles hv:group-hover:border-green-400">
               ← Home
             </span>
           </Link>
@@ -58,7 +58,7 @@ export default function Header({ type }: Props) {
         {type !== 'home' && type !== 'about' && (
           <Link
             href="/about"
-            className="hover-border-styles mono-styles inline-flex pb-1 hv:hover:border-yellow-400"
+            className="hover-border-styles mono-styles inline-flex pb-1 hv:hover:border-green-400"
           >
             About
           </Link>

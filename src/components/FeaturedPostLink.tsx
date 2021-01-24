@@ -20,7 +20,7 @@ export default function FeaturedPostLink({
     <Link href={href} className="block group py-4 my-12">
       <Date date={date} />
       <h2 className="mb-3">
-        <PostTitle className="hover-border-styles hv:group-hover:border-yellow-400">
+        <PostTitle className="hover-border-styles hv:group-hover:border-green-400">
           {title}
         </PostTitle>
       </h2>

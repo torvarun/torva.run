@@ -28,7 +28,7 @@ export function Li(props: JSX.IntrinsicElements['li']) {
 }
 
 export function A(props: JSX.IntrinsicElements['a']) {
-  return <Link className="underline hv:hover:bg-yellow-400" {...props}></Link>
+  return <Link className="underline hv:hover:bg-green-300" {...props}></Link>
 }
 
 export function H4(props: JSX.IntrinsicElements['h4']) {

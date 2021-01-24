@@ -8,7 +8,8 @@
 
 ::selection {
   /* yellow-400 */
-  background: #f6e05e;
+  /* background: #f6e05e; */
+  background: #6ee7b7;
 }
 
 @tailwind components;
