@@ -55,68 +55,54 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
       <section className="leading-relaxed">
         <div className="my-16">
           <img
-            src="/images/chibicode.jpg"
-            alt="Shu Uesugi"
+            src="/images/me.jpg"
+            alt="Varun Venkataramanan"
             className="rounded-full w-56 h-56 block mx-auto shadow-soft"
           />
         </div>
         <h1>
-          <PostTitle>Shu Uesugi</PostTitle>
+          <PostTitle>Varun Venkataramanan</PostTitle>
         </h1>
         <Ul>
           <Li>
-            Product Engineer at <A href="https://vercel.com">Vercel</A>.
+            CS & English Literature at UWaterloo
           </Li>
           <Li>
-            Co-translator (EN → JP) for{' '}
-            <A href="https://www.amazon.com/Factfulness-Reasons-World-Things-Better/dp/1250107814">
-              “Factfulness”
-            </A>{' '}
-            by Hans Rosling, et al.
+            Bylines in <i>Macleans</i>, <i>Imprint</i>
           </Li>
           <Li>
-            Ex-lead engineer at <A href="https://www.edsurge.com/">EdSurge</A>.
+            Currently building out <A href="https://source.android.com/devices/automotive/start/what_automotive">Android Automotive</A> at Ford
           </Li>
           <Li>
-            Featured work:{' '}
-            <A href="https://ycombinator.chibicode.com">
-              Y Combinator for Non-programmers
-            </A>
-            .
+            Previously worked on <A href="https://source.android.com/security/trusty">Trusty TEE</A>{" at Huawei, "}
+            <A href="https://www.qualcomm.com/products/snapdragon-865-5g-mobile-platform">Snapdragon</A>{" at Qualcomm, "}
+            <A href="https://github.com/torvarun/gr-pv">radios</A>{" at Per Vices "}
           </Li>
-          <Li>Time zone: Pacific Time.</Li>
         </Ul>
         <H3>Links</H3>
         <Ul>
           <Li>
-            <strong>Email:</strong>{' '}
-            <A href="mailto:shu@chibicode.com">shu@chibicode.com</A>
+            <strong>email:</strong>{' '}
+            <A href="mailto:varun.venkataramanan@uwaterloo.ca">varun.venkataramanan@uwaterloo.ca</A>
           </Li>
           <Li>
-            <strong>Twitter:</strong>{' '}
-            <A href="https://twitter.com/chibicode">@chibicode</A>
+            <strong>twitter:</strong>{' '}
+            <A href="https://twitter.com/torvarun">@torvarun</A>
           </Li>
           <Li>
-            <strong>GitHub:</strong>{' '}
-            <A href="https://github.com/chibicode">@chibicode</A>
+            <strong>github:</strong>{' '}
+            <A href="https://github.com/torvarun">@torvarun</A>
           </Li>
           <Li>
-            <strong>LinkedIn:</strong>{' '}
-            <A href="https://linkedin.com/in/chibicode">Shu Uesugi</A>
-          </Li>
-          <Li>
-            <strong>Japanese Website:</strong>{' '}
-            <A href="https://jp.chibicode.com">jp.chibicode.com</A>
+            <strong>linkedin:</strong>{' '}
+            <A href="https://linkedin.com/in/torvarun">/in/torvarun</A>
           </Li>
         </Ul>
-        <H3>Colophon</H3>
+        <H3>Meta</H3>
         <Ul>
           <Li>
-            <E>👞</E> <E>🥃</E> means “Shoe” (Shu) and “Whiskey” (Uesugi).
-          </Li>
-          <Li>
             This site is built with <A href="https://nextjs.org/">Next.js</A>{' '}
-            and deployed to <A href="https://vercel.com/">Vercel</A>.
+            and is a derivative of <A href="https://github.com/chibicode/cc">chibicode</A>
           </Li>
           <Li>
             This site uses{' '}
@@ -125,10 +111,10 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
           </Li>
           <Li>
             The source code is available on{' '}
-            <A href="https://github.com/chibicode/cc">GitHub</A>.
+            <A href="https://github.com/torvarun/torva.run">GitHub</A>.
           </Li>
           <Li>
-            License for the posts: ©2020 Shusaku Uesugi. All Rights Reserved.
+            License for the posts: ©2020 Varun Venkataramanan. All Rights Reserved.
           </Li>
         </Ul>
       </section>
