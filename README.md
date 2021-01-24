@@ -7,6 +7,16 @@ yarn install
 yarn dev
 ```
 
+## TODO
+
+- [X] Change colours
+- [ ] Migrate posts from old blog
+  - [ ] Ensure images are formatted properly (size, caption/credit, etc.)
+- [ ] Upload resume
+- [ ] Pages for work
+  - [ ] Android
+  - [ ] Data Viz
+
 ## About
 
 - This site is a derivative of [https://chibicode.com](https://github.com/chibicode/cc) ([MIT License, 2020](https://github.com/chibicode/cc/blob/master/license-code.md)].
