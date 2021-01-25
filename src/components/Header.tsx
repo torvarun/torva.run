@@ -21,6 +21,12 @@ export default function Header({ type }: Props) {
               blog
             </Link>
             <Link
+              href="/android"
+              className="hover-border-styles mono-styles inline-flex pb-1 hv:hover:border-green-400"
+            >
+              Android
+            </Link>
+            <Link
               href="/about"
               className="hover-border-styles mono-styles inline-flex pb-1 hv:hover:border-green-400"
             >
