@@ -72,37 +72,23 @@ export default function Page() {
             <A href="https://github.com/torvarun/gr-pv">radios</A>{" at Per Vices "}
           </Li>
         </Ul>
-        <H3>Links</H3>
+        <H3 smallBottomMargin>Links</H3>
         <Ul>
           <Li>
-            <strong>email:</strong>{' '}
+            Email:{' '}
             <A href="mailto:varun.venkataramanan@uwaterloo.ca">varun.venkataramanan@uwaterloo.ca</A>
           </Li>
           <Li>
-            <strong>twitter:</strong>{' '}
+            Twitter:{' '}
             <A href="https://twitter.com/torvarun">@torvarun</A>
           </Li>
           <Li>
-            <strong>github:</strong>{' '}
+            GitHub:{' '}
             <A href="https://github.com/torvarun">@torvarun</A>
           </Li>
           <Li>
-            <strong>linkedin:</strong>{' '}
+            LinkedIn:{' '}
             <A href="https://linkedin.com/in/torvarun">/in/torvarun</A>
-          </Li>
-        </Ul>
-        <H3>Meta</H3>
-        <Ul>
-          <Li>
-            This site is built with <A href="https://nextjs.org/">Next.js</A>{' '}
-            and is a derivative of <A href="https://github.com/chibicode/cc">chibicode</A>
-          </Li>
-          <Li>
-            The source code is available on{' '}
-            <A href="https://github.com/torvarun/torva.run">GitHub</A>.
-          </Li>
-          <Li>
-            License for the posts: ©2020 Varun Venkataramanan. All Rights Reserved.
           </Li>
         </Ul>
       </section>
