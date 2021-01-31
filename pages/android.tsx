@@ -65,7 +65,7 @@ export default function Page() {
               width="md"
               caption="At request of the client, this app is no longer listed on the Google Play Store but remains available on the Amazon TV Store."
             />
-            <P>I developed this app for Nature Relaxation&trade; as part of my work at App Mastery Inc. The app allows users to browse the video library, play videos (using exoplayer), and perform in-app purhcases.</P>
+            <P>This app for Nature Relaxation&trade; as part of my work at App Mastery Inc. It allows users to browse the video library, play videos (using exoplayer), and perform in-app purhcases.</P>
             <P>Libraries: RxAndroid, ExoPlayer, Retrofit, OkHttp, Picasso, Moshi, Leanback</P>
           </div>
           <div id="dekkoo">
@@ -82,7 +82,7 @@ export default function Page() {
               alt="Dekkoo Android TV"
               width="md"
             />
-            <P>I developed this app for Dekkoo.com as part of my work at App Mastery Inc. The app allows users to browse, search, and play videos from Dekkoo's video library. It supports adaptive playback using the ExoPlayer library.</P>
+            <P>This app for Dekkoo.com as part of my work at App Mastery Inc. It allows users to browse, search, and play videos from Dekkoo's video library. It supports adaptive playback using the ExoPlayer library.</P>
             <P>Libraries: Retrofit, OkHttp, Picasso, Moshi, ExoPlayer, Leanback</P>
           </div>
         </div>
@@ -101,7 +101,7 @@ export default function Page() {
               alt="Reckoner for Android"
               width="md"
             />
-            <P>I developed this application for my high school newspaper, The Reckoner of MGCI, which allows users to browse and read articles published to <A href="https://www.thereckoner.ca" target="_blank">The Reckoner's website</A>. It fetches data from the site using Wordpress's REST API (wp-rest). Articles are displayed in a list of CardViews; individual articles are rendered by displaying formatted HTML in a ScrollView.</P>
+            <P>This application was developed for my high school newspaper, <A href="https://www.thereckoner.ca">The Reckoner of MGCI</A>, and allows users to browse and read published articles. It fetches data from the site using Wordpress's REST API (wp-rest). Articles are displayed in a list of CardViews; individual articles are rendered by displaying custom formatted HTML inside a ScrollView.</P>
             <P>Libraries: Gson, Firebase, Picasso, OkHttp, Butterkinife</P>
           </div>
         </div>
