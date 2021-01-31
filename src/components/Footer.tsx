@@ -23,6 +23,7 @@ export default function Footer({ type }: Props) {
           ← Home
         </Link>
       )}
+          { /*
       {type !== 'about' && (
         <Link
           href="/about"
@@ -31,6 +32,7 @@ export default function Footer({ type }: Props) {
           About
         </Link>
       )}
+             */ }
     </footer>
   )
 }
