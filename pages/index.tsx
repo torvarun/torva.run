@@ -1,15 +1,12 @@
 import React from 'react'
 import Layout from 'src/components/Layout'
-import postGetStaticProps, { PostBaseProps } from 'src/lib/postGetStaticProps'
 import Head from 'next/head'
 import { SITE_TITLE, SITE_URL, SITE_DESCRIPTION } from 'src/lib/constants'
 import { A, H3, Ul, Li } from 'src/components/Tags'
 
-export const getStaticProps = postGetStaticProps(Page)
-
-export default function Page({ emojiToSvg }: PostBaseProps) {
+export default function Page() {
   return (
-    <Layout type="home" emojiToSvg={emojiToSvg}>
+    <Layout type="home">
       <Head>
         <title key="title">{SITE_TITLE}</title>
         <meta property="og:title" content={SITE_TITLE} />
@@ -99,11 +96,6 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
           <Li>
             This site is built with <A href="https://nextjs.org/">Next.js</A>{' '}
             and is a derivative of <A href="https://github.com/chibicode/cc">chibicode</A>
-          </Li>
-          <Li>
-            This site uses{' '}
-            <A href="https://github.com/twitter/twemoji">Twemoji</A> by Twitter
-            (CC-BY 4.0).
           </Li>
           <Li>
             The source code is available on{' '}

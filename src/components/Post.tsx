@@ -3,7 +3,6 @@ import postData from 'src/contents/postDataTyped'
 import cn from 'classnames'
 import Date from 'src/components/Date'
 import PostTitle from 'src/components/PostTitle'
-import Emoji from 'src/components/Emoji'
 import { P, A, Img } from 'src/components/Tags'
 import FeaturedPostLink from 'src/components/FeaturedPostLink'
 import posts from 'src/contents/postsTyped'
@@ -93,11 +92,6 @@ export default function Post({ href, children }: Props) {
       </article>
       <div className="py-16">
         <P className="text-center">Thanks for reading!</P>
-        <div className="my-6 flex justify-center text-2xl" role="separator">
-          <Emoji className="mx-2">🥃</Emoji>
-          <Emoji className="mx-2">🥃</Emoji>
-          <Emoji className="mx-2">🥃</Emoji>
-        </div>
         <P className="text-center">
           <A href="/about">Learn more about the author here</A>.
         </P>
