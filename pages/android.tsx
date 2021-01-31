@@ -1,16 +1,13 @@
 import React from 'react'
 import Layout from 'src/components/Layout'
-import postGetStaticProps, { PostBaseProps } from 'src/lib/postGetStaticProps'
 import Head from 'next/head'
 import { SITE_TITLE, SITE_URL, SITE_DESCRIPTION } from 'src/lib/constants'
-import { E, A, H3, Ul, Li } from 'src/components/Tags'
+import { P, H3 } from 'src/components/Tags'
 import PostTitle from 'src/components/PostTitle'
 
-export const getStaticProps = postGetStaticProps(Page)
-
-export default function Page({ emojiToSvg }: PostBaseProps) {
+export default function Page() {
   return (
-    <Layout type="about" emojiToSvg={emojiToSvg}>
+    <Layout type="about">
       <Head>
         <title key="title">Android — {SITE_TITLE}</title>
         <meta property="og:title" content="Android" />
@@ -58,17 +55,17 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
         </h1>
         <div id="nature-relaxation">
           <H3>Nature Relaxation TV</H3>
-          <p>
+          <P>
             10,000+ installations across Android TV and Amazon TV.
-          </p>
+          </P>
           <img
             src="/images/natureTV.png"
             alt="Nature Relaxation Android TV"
             className="block mx-auto shadow-soft"
           />
-          <p><i>At request of the client, this app is no longer listed on the Google Play Store but remains available on the Amazon TV Store.</i></p>
-          <p>I developed this app for Nature Relaxation&trade; as part of my work at App Mastery Inc. The app allows users to browse the video library, play videos (using exoplayer), and perform in-app purhcases.</p>
-          <p>Libraries: RxAndroid, ExoPlayer, Retrofit, OkHttp, Picasso, Moshi, Leanback</p>
+          <P><i>At request of the client, this app is no longer listed on the Google Play Store but remains available on the Amazon TV Store.</i></P>
+          <P>I developed this app for Nature Relaxation&trade; as part of my work at App Mastery Inc. The app allows users to browse the video library, play videos (using exoplayer), and perform in-app purhcases.</P>
+          <P>Libraries: RxAndroid, ExoPlayer, Retrofit, OkHttp, Picasso, Moshi, Leanback</P>
         </div>
       </section>
     </Layout>
