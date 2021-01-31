@@ -14,7 +14,7 @@ yarn dev
 - [X] Change colours
 - [ ] Upload resume
 - [ ] Pages for work
-  - [ ] Android
+  - [X] Android
   - [ ] Data Viz
 - [ ] Change favicon
 
