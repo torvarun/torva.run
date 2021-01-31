@@ -75,19 +75,19 @@ export default function Page() {
         <H3>Links</H3>
         <Ul>
           <Li>
-            <strong>email:</strong>{' '}
+            Email:{' '}
             <A href="mailto:varun.venkataramanan@uwaterloo.ca">varun.venkataramanan@uwaterloo.ca</A>
           </Li>
           <Li>
-            <strong>twitter:</strong>{' '}
+            Twitter:{' '}
             <A href="https://twitter.com/torvarun">@torvarun</A>
           </Li>
           <Li>
-            <strong>github:</strong>{' '}
+            GitHub:{' '}
             <A href="https://github.com/torvarun">@torvarun</A>
           </Li>
           <Li>
-            <strong>linkedin:</strong>{' '}
+            LinkedIn:{' '}
             <A href="https://linkedin.com/in/torvarun">/in/torvarun</A>
           </Li>
         </Ul>
