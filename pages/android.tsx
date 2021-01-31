@@ -50,9 +50,7 @@ export default function Page() {
         />
       </Head>
       <section className="leading-relaxed">
-        <h1>
           <PostTitle>Android Portfolio</PostTitle>
-        </h1>
         <div id="nature-relaxation">
           <H3>Nature Relaxation TV</H3>
           <P>

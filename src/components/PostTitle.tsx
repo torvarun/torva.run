@@ -11,7 +11,7 @@ export default function PostTitle({ className, children }: Props) {
         <div className="flex justify-center">
             <span
                 className={cn(
-                    'text-3xl leading-tight tracking-tighter font-sans font-bold',
+                    'text-3xl leading-tight tracking-tighter font-sans',
                     className
                 )}
             >

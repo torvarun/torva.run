@@ -35,7 +35,7 @@ export function H3({
   return (
     <h3
       className={cn(
-        'text-xl font-bold font-sans leading-snug mb-6 tracking-tight',
+        'text-xl font-sans leading-snug mb-6 tracking-tight',
         {
           'mt-4': !noTopMargin,
         }
