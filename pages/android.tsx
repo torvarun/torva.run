@@ -7,7 +7,7 @@ import PostTitle from 'src/components/PostTitle'
 
 export default function Page() {
   return (
-    <Layout type="about">
+    <Layout type="android">
       <Head>
         <title key="title">Android — {SITE_TITLE}</title>
         <meta property="og:title" content="Android" />
@@ -50,7 +50,6 @@ export default function Page() {
         />
       </Head>
       <section className="leading-relaxed">
-          <PostTitle>Android Portfolio</PostTitle>
         <div id="nature-relaxation">
           <H3>Nature Relaxation TV</H3>
           <P>

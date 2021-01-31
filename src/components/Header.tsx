@@ -35,6 +35,18 @@ export default function Header({ type }: Props) {
           </div>
         </>
       )}
+        {type !== 'home' && (
+          <div>
+            <span className="block text-2xl pb-1">
+              {type === 'android' && (
+                <PostTitle>Android Portfolio</PostTitle>
+              )}
+              {type !== 'android' && (
+                <PostTitle>Varun Venkataramanan</PostTitle>
+              )}
+            </span>
+          </div>
+        )}
       <div
         className={cn('flex', {
           'justify-center': type === 'home',
@@ -43,9 +55,6 @@ export default function Header({ type }: Props) {
       >
         {type !== 'home' && (
           <div>
-            <span className="block text-2xl pb-1">
-              <h1>Varun Venkataramanan</h1>
-            </span>
             <Link href="/" className="group">
               <span className="mono-styles block pb-1 hover-border-styles hv:group-hover:border-green-400">
                 ← Home
