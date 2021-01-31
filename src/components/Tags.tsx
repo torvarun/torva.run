@@ -1,15 +1,6 @@
 import React from 'react'
 import Link from 'src/components/Link'
-import Emoji from 'src/components/Emoji'
 import cn from 'classnames'
-
-export function E({ children, label }: { children: string; label?: string }) {
-  return (
-    <Emoji className="text-xl leading-none align-text-bottom" label={label}>
-      {children}
-    </Emoji>
-  )
-}
 
 export function P(props: JSX.IntrinsicElements['p']) {
   return <p className="my-6" {...props} />
@@ -70,9 +61,6 @@ export function Hr(props: JSX.IntrinsicElements['div']) {
       {...props}
       role="separator"
     >
-      <Emoji className="mx-2">👞</Emoji>
-      <Emoji className="mx-2">👞</Emoji>
-      <Emoji className="mx-2">👞</Emoji>
     </div>
   )
 }

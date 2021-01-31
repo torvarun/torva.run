@@ -1,17 +1,14 @@
 import React from 'react'
 import Layout from 'src/components/Layout'
-import postGetStaticProps, { PostBaseProps } from 'src/lib/postGetStaticProps'
 import FeaturedPostLink from 'src/components/FeaturedPostLink'
 import posts from 'src/contents/postsTyped'
 import postData from 'src/contents/postDataTyped'
 import Head from 'next/head'
 import { SITE_TITLE, SITE_URL, SITE_DESCRIPTION } from 'src/lib/constants'
 
-export const getStaticProps = postGetStaticProps(Page)
-
-export default function Page({ emojiToSvg }: PostBaseProps) {
+export default function Page() {
   return (
-    <Layout type="about" emojiToSvg={emojiToSvg}>
+    <Layout type="about">
       <Head>
         <title key="title">About - {SITE_TITLE}</title>
         <meta property="og:title" content="About" />
