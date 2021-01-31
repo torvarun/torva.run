@@ -12,8 +12,8 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
   return (
     <Layout type="about" emojiToSvg={emojiToSvg}>
       <Head>
-        <title key="title">About — {SITE_TITLE}</title>
-        <meta property="og:title" content="About" />
+        <title key="title">Android — {SITE_TITLE}</title>
+        <meta property="og:title" content="Android" />
         <meta property="og:url" content={`${SITE_URL}/archive`} />
         <link rel="canonical" href={`${SITE_URL}/archive`} />
         <meta property="og:description" content={SITE_DESCRIPTION} />
@@ -53,70 +53,23 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
         />
       </Head>
       <section className="leading-relaxed">
-        <div className="my-16">
-          <img
-            src="/images/me.jpg"
-            alt="Varun Venkataramanan"
-            className="rounded-full w-56 h-56 block mx-auto shadow-soft"
-          />
-        </div>
         <h1>
-          <PostTitle>Varun Venkataramanan</PostTitle>
+          <PostTitle>Android Portfolio</PostTitle>
         </h1>
-        <Ul>
-          <Li>
-            CS & English Literature at UWaterloo
-          </Li>
-          <Li>
-            Bylines in <i>Macleans</i>, <i>Imprint</i>
-          </Li>
-          <Li>
-            Currently building out <A href="https://source.android.com/devices/automotive/start/what_automotive">Android Automotive</A> at Ford
-          </Li>
-          <Li>
-            Previously worked on <A href="https://source.android.com/security/trusty">Trusty TEE</A>{" at Huawei, "}
-            <A href="https://www.qualcomm.com/products/snapdragon-865-5g-mobile-platform">Snapdragon</A>{" at Qualcomm, "}
-            <A href="https://github.com/torvarun/gr-pv">radios</A>{" at Per Vices "}
-          </Li>
-        </Ul>
-        <H3>Links</H3>
-        <Ul>
-          <Li>
-            <strong>email:</strong>{' '}
-            <A href="mailto:varun.venkataramanan@uwaterloo.ca">varun.venkataramanan@uwaterloo.ca</A>
-          </Li>
-          <Li>
-            <strong>twitter:</strong>{' '}
-            <A href="https://twitter.com/torvarun">@torvarun</A>
-          </Li>
-          <Li>
-            <strong>github:</strong>{' '}
-            <A href="https://github.com/torvarun">@torvarun</A>
-          </Li>
-          <Li>
-            <strong>linkedin:</strong>{' '}
-            <A href="https://linkedin.com/in/torvarun">/in/torvarun</A>
-          </Li>
-        </Ul>
-        <H3>Meta</H3>
-        <Ul>
-          <Li>
-            This site is built with <A href="https://nextjs.org/">Next.js</A>{' '}
-            and is a derivative of <A href="https://github.com/chibicode/cc">chibicode</A>
-          </Li>
-          <Li>
-            This site uses{' '}
-            <A href="https://github.com/twitter/twemoji">Twemoji</A> by Twitter
-            (CC-BY 4.0).
-          </Li>
-          <Li>
-            The source code is available on{' '}
-            <A href="https://github.com/torvarun/torva.run">GitHub</A>.
-          </Li>
-          <Li>
-            License for the posts: ©2020 Varun Venkataramanan. All Rights Reserved.
-          </Li>
-        </Ul>
+        <div id="nature-relaxation">
+          <H3>Nature Relaxation TV</H3>
+          <p>
+            10,000+ installations across Android TV and Amazon TV.
+          </p>
+          <img
+            src="/images/natureTV.png"
+            alt="Nature Relaxation Android TV"
+            className="block mx-auto shadow-soft"
+          />
+          <p><i>At request of the client, this app is no longer listed on the Google Play Store but remains available on the Amazon TV Store.</i></p>
+          <p>I developed this app for Nature Relaxation&trade; as part of my work at App Mastery Inc. The app allows users to browse the video library, play videos (using exoplayer), and perform in-app purhcases.</p>
+          <p>Libraries: RxAndroid, ExoPlayer, Retrofit, OkHttp, Picasso, Moshi, Leanback</p>
+        </div>
       </section>
     </Layout>
   )
