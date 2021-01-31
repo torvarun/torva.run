@@ -27,26 +27,26 @@ export default function Header({ type }: Props) {
               Android
             </Link>
             <Link
-              href="/about"
+              href="/resume.pdf"
               className="hover-border-styles mono-styles inline-flex pb-1 hv:hover:border-green-400"
             >
-              About
+              Resume
             </Link>
           </div>
         </>
       )}
-        {type !== 'home' && (
-          <div>
-            <span className="block text-2xl pb-1">
-              {type === 'android' && (
-                <PostTitle>Android Portfolio</PostTitle>
-              )}
-              {type !== 'android' && (
-                <PostTitle>Varun Venkataramanan</PostTitle>
-              )}
-            </span>
-          </div>
-        )}
+      {type !== 'home' && (
+        <div>
+          <span className="block text-2xl pb-1">
+            {type === 'android' && (
+              <PostTitle>Android Portfolio</PostTitle>
+            )}
+            {type !== 'android' && (
+              <PostTitle>Varun Venkataramanan</PostTitle>
+            )}
+          </span>
+        </div>
+      )}
       <div
         className={cn('flex', {
           'justify-center': type === 'home',
@@ -70,12 +70,12 @@ export default function Header({ type }: Props) {
             <p>Android Developer • Writer • Distance Runner</p>
           </div>
         )}
-        {type !== 'home' && type !== 'about' && (
+        {type !== 'home' && (
           <Link
-            href="/about"
+            href="/resume.pdf"
             className="hover-border-styles mono-styles inline-flex pb-1 hv:hover:border-green-400"
           >
-            About
+            Resume
           </Link>
         )}
       </div>

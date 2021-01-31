@@ -4,17 +4,17 @@ import Footer from 'src/components/Footer'
 import Meta from 'src/components/Meta'
 
 export type Props = {
-    children: React.ReactNode
-    type: 'home' | 'post' | 'archive' | 'about' | 'android'
+  children: React.ReactNode
+  type: 'home' | 'post' | 'archive' | 'android'
 }
 
 export default function Layout({ children, type }: Props) {
-    return (
-        <div className="max-w-xl mx-auto px-4 pt-8 pb-16 text-gray-900">
-            <Meta type={type} />
-            <Header type={type} />
-            {children}
-            <Footer type={type} />
-        </div>
-    )
+  return (
+    <div className="max-w-xl mx-auto px-4 pt-8 pb-16 text-gray-900">
+      <Meta type={type} />
+      <Header type={type} />
+      {children}
+      <Footer type={type} />
+    </div>
+  )
 }

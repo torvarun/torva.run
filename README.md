@@ -12,7 +12,7 @@ yarn dev
 ## TODO
 
 - [X] Change colours
-- [ ] Upload resume
+- [X] Upload resume
 - [ ] Pages for work
   - [X] Android
   - [ ] Data Viz
@@ -23,4 +23,3 @@ yarn dev
 [MIT License](license-code.md).
 
 - This site is a derivative of [https://chibicode.com](https://github.com/chibicode/cc) ([MIT License, 2020](https://github.com/chibicode/cc/blob/master/license-code.md)].
-- This site uses [Twemoji](https://github.com/twitter/twemoji) by Twitter (CC-BY 4.0).
