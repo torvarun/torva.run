@@ -3,7 +3,7 @@ import Link from 'src/components/Link'
 import cn from 'classnames'
 
 export function P(props: JSX.IntrinsicElements['p']) {
-  return <p className="my-4" {...props} />
+  return <p className="my-3 leading-normal" {...props} />
 }
 
 export function Ul(props: JSX.IntrinsicElements['ul']) {
@@ -89,14 +89,14 @@ export function Img({
 } & JSX.IntrinsicElements['img']) {
   const imgTag = (
     <img
-      className={cn('my-16 block mx-auto shadow-soft', {
+      className={cn('my-6 block mx-auto shadow-soft', {
         'max-w-sm': width === 'sm',
         'max-w-md': width === 'md',
         'max-w-full': width !== 'sm' && width !== 'md',
         'w-full': width === 'sm' || width === 'md',
         'w-auto': width !== 'sm' && width !== 'md',
         'hv:hover:shadow-large': shadowHover,
-        'my-16': !caption && !coverImage,
+        'my-6': !caption && !coverImage,
         'mb-6': caption && !coverImage,
         'mt-6 mb-16': coverImage,
       })}
@@ -105,7 +105,7 @@ export function Img({
   )
 
   return caption ? (
-    <figure className="my-16">
+    <figure className="my-6">
       {imgTag}
       <figcaption className="text-sm text-center">{caption}</figcaption>
     </figure>

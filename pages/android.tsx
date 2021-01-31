@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from 'src/components/Layout'
 import Head from 'next/head'
 import { SITE_TITLE, SITE_URL, SITE_DESCRIPTION } from 'src/lib/constants'
-import { P, H3 } from 'src/components/Tags'
+import { P, H3, Img } from 'src/components/Tags'
 import PostTitle from 'src/components/PostTitle'
 
 export default function Page() {
@@ -58,10 +58,11 @@ export default function Page() {
           <P>
             10,000+ installations across Android TV and Amazon TV.
           </P>
-          <img
+          <Img
             src="/images/natureTV.png"
             alt="Nature Relaxation Android TV"
-            className="block mx-auto shadow-soft"
+            width="md"
+            caption="At request of the client, this app is no longer listed on the Google Play Store but remains available on the Amazon TV Store."
           />
           <P><i>At request of the client, this app is no longer listed on the Google Play Store but remains available on the Amazon TV Store.</i></P>
           <P>I developed this app for Nature Relaxation&trade; as part of my work at App Mastery Inc. The app allows users to browse the video library, play videos (using exoplayer), and perform in-app purhcases.</P>
