@@ -17,6 +17,7 @@ yarn dev
   - [X] Android
   - [ ] Data Viz
 - [ ] Change favicon
+- [ ] Analytics
 
 ## About
 

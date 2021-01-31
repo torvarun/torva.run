@@ -27,6 +27,12 @@ export default function Header({ type }: Props) {
               Android
             </Link>
             <Link
+              href="/data"
+              className="hover-border-styles mono-styles inline-flex pb-1 hv:hover:border-green-400"
+            >
+              Data Viz
+            </Link>
+            <Link
               href="/resume.pdf"
               className="hover-border-styles mono-styles inline-flex pb-1 hv:hover:border-green-400"
             >
@@ -41,7 +47,10 @@ export default function Header({ type }: Props) {
             {type === 'android' && (
               <PostTitle>Android Portfolio</PostTitle>
             )}
-            {type !== 'android' && (
+            {type === 'data' && (
+              <PostTitle>Data Viz Portfolio</PostTitle>
+            )}
+            {type !== 'android'  && type !== 'data' && (
               <PostTitle>Varun Venkataramanan</PostTitle>
             )}
           </span>
