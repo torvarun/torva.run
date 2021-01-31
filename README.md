@@ -12,7 +12,7 @@ yarn dev
 ## TODO
 
 - [X] Change colours
-- [ ] Upload resume
+- [X] Upload resume
 - [ ] Pages for work
   - [X] Android
   - [ ] Data Viz
