@@ -3,7 +3,6 @@ import Layout from 'src/components/Layout'
 import Head from 'next/head'
 import { SITE_TITLE, SITE_URL, SITE_DESCRIPTION } from 'src/lib/constants'
 import { P, H3, Img } from 'src/components/Tags'
-import PostTitle from 'src/components/PostTitle'
 
 export default function Page() {
   return (
