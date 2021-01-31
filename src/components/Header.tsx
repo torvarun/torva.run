@@ -27,10 +27,10 @@ export default function Header({ type }: Props) {
               Android
             </Link>
             <Link
-              href="/about"
+              href="/resume.pdf"
               className="hover-border-styles mono-styles inline-flex pb-1 hv:hover:border-green-400"
             >
-              About
+              Resume
             </Link>
           </div>
         </>
@@ -72,10 +72,10 @@ export default function Header({ type }: Props) {
         )}
         {type !== 'home' && type !== 'about' && (
           <Link
-            href="/about"
+            href="/resume.pdf"
             className="hover-border-styles mono-styles inline-flex pb-1 hv:hover:border-green-400"
           >
-            About
+            Resume
           </Link>
         )}
       </div>
