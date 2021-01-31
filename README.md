@@ -1,5 +1,7 @@
 # (https://torva.run)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/706869b9-0649-4aed-88fa-f0fb749c8c40/deploy-status)](https://app.netlify.com/sites/torvarun-beta/deploys)
+
 ## Development
 
 ```bash
@@ -10,12 +12,11 @@ yarn dev
 ## TODO
 
 - [X] Change colours
-- [ ] Migrate posts from old blog
-  - [ ] Ensure images are formatted properly (size, caption/credit, etc.)
 - [ ] Upload resume
 - [ ] Pages for work
   - [ ] Android
   - [ ] Data Viz
+- [ ] Change favicon
 
 ## About
 
