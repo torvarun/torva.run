@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'src/components/Link'
 import cn from 'classnames'
 import { Props as LayoutProps } from 'src/components/Layout'
+import PostTitle from 'src/components/PostTitle'
 
 type Props = {
   type: LayoutProps['type']
@@ -12,12 +13,12 @@ export default function Header({ type }: Props) {
     <header>
       {type === 'home' && (
         <>
-          <div className="flex justify-between mb-12">
+          <div className="flex justify-between mb-3">
             <Link
-              href="https://twitter.com/torvarun"
+              href="https://blog.torva.run"
               className="hover-border-styles mono-styles inline-flex pb-1 hv:hover:border-green-400"
             >
-              @torvarun
+              blog
             </Link>
             <Link
               href="/about"
@@ -26,12 +27,6 @@ export default function Header({ type }: Props) {
               About
             </Link>
           </div>
-          { /*
-          <div className="text-center pb-2 text-5xl">
-            <Emoji className="pr-1">🏃</Emoji>
-            <Emoji className="pl-1">🥃</Emoji>
-          </div>
-             */ }
         </>
       )}
       <div
@@ -41,19 +36,25 @@ export default function Header({ type }: Props) {
         })}
       >
         {type !== 'home' && (
-          <Link href="/" className="group">
-            { /*
-            <span className="block text-3xl pb-3">
-              <Emoji className="pr-1">🏃</Emoji>
-              <Emoji className="pl-1">🥃</Emoji>
+          <div>
+            <span className="block text-2xl pb-1">
+              <h1>Varun Venkataramanan</h1>
             </span>
-               */ }
-            <span className="mono-styles block pb-1 hover-border-styles hv:group-hover:border-green-400">
-              ← Home
-            </span>
-          </Link>
+            <Link href="/" className="group">
+              <span className="mono-styles block pb-1 hover-border-styles hv:group-hover:border-green-400">
+                ← Home
+              </span>
+            </Link>
+          </div>
         )}
-        {type === 'home' && <h1 className="inline-flex pb-1">Varun Venkataramanan</h1>}
+        {type === 'home' && (
+          <div className="text-center">
+            <h1 className="inline-flex pb-1">
+              <PostTitle>Varun Venkataramanan</PostTitle>
+            </h1>
+            <p>Android Developer • Writer • Distance Runner</p>
+          </div>
+        )}
         {type !== 'home' && type !== 'about' && (
           <Link
             href="/about"

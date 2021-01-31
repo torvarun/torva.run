@@ -46,7 +46,7 @@ export function H3({
       className={cn(
         'text-xl font-bold font-sans leading-snug mb-6 tracking-tight',
         {
-          'mt-16': !noTopMargin,
+          'mt-4': !noTopMargin,
         }
       )}
       {...props}

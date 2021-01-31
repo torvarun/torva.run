@@ -10,7 +10,7 @@ type Props = {
 export default function Footer({ type }: Props) {
   return (
     <footer
-      className={cn('pt-16 flex mono-styles', {
+      className={cn('pt-6 flex mono-styles', {
         'justify-center': type === 'home',
         'justify-between': type !== 'home',
       })}
