@@ -52,7 +52,7 @@ export default function Page({ emojiToSvg }: PostBaseProps) {
         />
       </Head>
       <section className="leading-relaxed">
-        <div className="my-16">
+        <div className="my-4">
           <img
             src="/images/me.jpg"
             alt="Varun Venkataramanan"

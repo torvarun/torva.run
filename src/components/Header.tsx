@@ -14,7 +14,7 @@ export default function Header({ type }: Props) {
     <header>
       {type === 'home' && (
         <>
-          <div className="flex justify-between mb-12">
+          <div className="flex justify-between mb-3">
             <Link
               href="https://blog.torva.run"
               className="hover-border-styles mono-styles inline-flex pb-1 hv:hover:border-green-400"
