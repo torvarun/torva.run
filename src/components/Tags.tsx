@@ -3,7 +3,7 @@ import Link from 'src/components/Link'
 import cn from 'classnames'
 
 export function P(props: JSX.IntrinsicElements['p']) {
-  return <p className="my-3 leading-normal" {...props} />
+  return <p className="my-3 leading-tight" {...props} />
 }
 
 export function Ul(props: JSX.IntrinsicElements['ul']) {

@@ -91,20 +91,6 @@ export default function Page() {
             <A href="https://linkedin.com/in/torvarun">/in/torvarun</A>
           </Li>
         </Ul>
-        <H3>Meta</H3>
-        <Ul>
-          <Li>
-            This site is built with <A href="https://nextjs.org/">Next.js</A>{' '}
-            and is a derivative of <A href="https://github.com/chibicode/cc">chibicode</A>
-          </Li>
-          <Li>
-            The source code is available on{' '}
-            <A href="https://github.com/torvarun/torva.run">GitHub</A>.
-          </Li>
-          <Li>
-            License for the posts: ©2020 Varun Venkataramanan. All Rights Reserved.
-          </Li>
-        </Ul>
       </section>
     </Layout>
   )
