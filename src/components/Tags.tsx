@@ -3,7 +3,7 @@ import Link from 'src/components/Link'
 import cn from 'classnames'
 
 export function P(props: JSX.IntrinsicElements['p']) {
-    return <p className="my-3 leading-tight" {...props} />
+    return <p className="my-3 leading-tight text-sm" {...props} />
 }
 
 export function Ul(props: JSX.IntrinsicElements['ul']) {
@@ -28,16 +28,20 @@ export function H4(props: JSX.IntrinsicElements['h4']) {
 
 export function H3({
     noTopMargin,
+    smallBottomMargin,
     ...props
 }: {
     noTopMargin?: boolean
+    smallBottomMargin?: boolean
 } & JSX.IntrinsicElements['h3']) {
     return (
         <h3
             className={cn(
-                'text-xl font-sans leading-snug mb-6 tracking-tight',
+                'text-xl font-sans leading-snug tracking-tight',
                 {
                     'mt-4': !noTopMargin,
+                    'mb-6': !smallBottomMargin,
+                    'mb-2': smallBottomMargin,
                 }
             )}
             {...props}

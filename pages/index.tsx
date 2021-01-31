@@ -72,7 +72,7 @@ export default function Page() {
             <A href="https://github.com/torvarun/gr-pv">radios</A>{" at Per Vices "}
           </Li>
         </Ul>
-        <H3>Links</H3>
+        <H3 smallBottomMargin>Links</H3>
         <Ul>
           <Li>
             Email:{' '}

@@ -51,12 +51,12 @@ export default function Page() {
       <section className="leading-relaxed">
         <div id="tv">
           <div id="nature-relaxation">
-            <H3>
+            <H3 smallBottomMargin>
               <A href="https://www.amazon.com/David-Huting-Nature-Relaxation-Demand/dp/B01JD8ZLBC">
                 Nature Relaxation TV
               </A>
             </H3>
-            <P>
+            <P className="text-base">
               10,000+ installations across Android TV and Amazon TV
             </P>
             <Img
@@ -69,12 +69,12 @@ export default function Page() {
             <P>Libraries: RxAndroid, ExoPlayer, Retrofit, OkHttp, Picasso, Moshi, Leanback</P>
           </div>
           <div id="dekkoo">
-            <H3>
+            <H3 smallBottomMargin>
               <A href="https://play.google.com/store/apps/details?id=co.appmastery.dekkooandroid">
                 Dekkoo TV
               </A>
             </H3>
-            <P>
+            <P className="text-base">
               500+ installations
             </P>
             <Img
@@ -88,13 +88,13 @@ export default function Page() {
         </div>
         <div id="mobile">
           <div id="reckoner">
-            <H3>
+            <H3 smallBottomMargin>
               <A href="https://play.google.com/store/apps/details?id=ca.thereckoner.thereckoner">
                 The Reckoner for Android
               </A>
             </H3>
-            <P>
-              100+ installs with a 4.8 Star rating
+            <P className="text-base">
+              100+ installations with a 4.8 Star rating
             </P>
             <Img
               src="/images/reckoner_android.png"
