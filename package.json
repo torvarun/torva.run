@@ -16,8 +16,7 @@
     "prism-react-renderer": "^1.1.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "tailwindcss": "^1.6.0",
-    "twemoji": "^13.0.1"
+    "tailwindcss": "^1.6.0"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.10",
