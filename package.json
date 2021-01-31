@@ -6,11 +6,12 @@
     "dev": "next dev",
     "build": "node scripts/generateSitemap.js && next build",
     "start": "next start",
+    "export": "next export",
     "eslint": "eslint ."
   },
   "dependencies": {
     "classnames": "^2.2.6",
-    "next": "9.5.1",
+    "next": "9.5.3",
     "postcss-preset-env": "^6.7.0",
     "prism-react-renderer": "^1.1.1",
     "react": "16.13.1",

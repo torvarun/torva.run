@@ -1,5 +1,4 @@
 import React from 'react'
-import Emoji from 'src/components/Emoji'
 import Link from 'src/components/Link'
 import cn from 'classnames'
 import { Props as LayoutProps } from 'src/components/Layout'
