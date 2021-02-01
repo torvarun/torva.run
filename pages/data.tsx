@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from 'src/components/Layout'
 import Head from 'next/head'
 import { SITE_TITLE, SITE_URL, SITE_DESCRIPTION } from 'src/lib/constants'
-import { A, P, H3, Img } from 'src/components/Tags'
+import { P } from 'src/components/Tags'
 
 export default function Page() {
   return (
