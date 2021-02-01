@@ -3,6 +3,7 @@ import Layout from 'src/components/Layout'
 import Head from 'next/head'
 import { SITE_TITLE, SITE_URL, SITE_DESCRIPTION } from 'src/lib/constants'
 import { P } from 'src/components/Tags'
+import GravityChart from 'src/components/d3/GravityChart'
 
 export default function Page() {
   return (
@@ -53,6 +54,7 @@ export default function Page() {
           <P>The following are miscellaneous data visualizations I have worked on over the past few years. I tend to design my charts in a similar fashion to those featured in FiveThrityEight, The Ringer, or New York Times.</P>
           <P>Technologies: D3.js, R (ggplot2), Python</P>
         </div>
+        <GravityChart data={gravityData} width="700"/>
       </section>
     </Layout>
   )
