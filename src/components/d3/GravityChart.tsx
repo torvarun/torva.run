@@ -74,15 +74,12 @@ class GravityChart extends Component {
     .text("Warriors With and Without Curry");
 
     // add the tooltip area to the webpage
-    var tooltip = d3.select('#gravity').append("div")
+    var tooltip = d3.select('#gravityChart').append("div")
     .attr("class", "tooltip")
     .style("opacity", 50);
 
     // load data
-    d3.csv("./data/curry.csv", function(data) {
-      //console.log(data)
-      return data;
-    }).then(function(data) {
+    d3.csv("./data/curry.csv").then(function(data) {
       //console.log(data)
       // change string (from CSV) into number format
       data.forEach(function(d, i) {
@@ -146,9 +143,11 @@ class GravityChart extends Component {
         .duration(200)
         .style("opacity", .9);
 
-           tooltip.html(d.player)
-           .style("left", (event.pageX - 225) + "px")
-           .style("top", (event.pageY - 28) + "px");
+        console.log(event.pageX, event.pageY);
+
+        tooltip.html(d.player)
+        .style("left", (event.pageX + 15) + "px")
+        .style("top", (event.pageY - 30) + "px");
 
         d3.select(this).style("fill", "orange"); 
       })
