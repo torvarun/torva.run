@@ -1,0 +1,13 @@
+player,efg_with,efg_without,usg_with,usg_without,mins_with,mins_without,correlation
+Klay Thompson,66.5,52.8,19.5,25.6,1092,1313,TRUE
+Kevin Durant,63.7,55.1,26.6,34.5,1196,1039,TRUE
+Draymond Green,53.6,50.7,16,17.3,1096,1111,TRUE
+Nick Young,61.6,51.7,13.7,18.4,344,997,TRUE
+Andre Iguodala,55.8,50.5,9.7,12.8,621,1012,TRUE
+Zaza  Pachulia,63.6,50,16.2,19,644,281,TRUE
+Kevin Looney,58.2,58.6,12.5,12.4,259,610,FALSE
+JaVale Mcgee,66.2,56.2,17.5,19,252,327,TRUE
+Patrick McCaw,50,44.2,10.8,13.2,239,709,TRUE
+Jordan Bell,65.6,62,13.8,13.9,238,560,TRUE
+Omri Casspi,50,64.6,14.5,16.7,193,546,FALSE
+Shaun Livingston,43.9,52.3,13.1,17.5,167,917,FALSE
