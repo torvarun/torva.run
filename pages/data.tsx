@@ -49,61 +49,9 @@ export default function Page() {
         />
       </Head>
       <section className="leading-relaxed">
-        <div id="tv">
-          <div id="nature-relaxation">
-            <H3 smallBottomMargin>
-              <A href="https://www.amazon.com/David-Huting-Nature-Relaxation-Demand/dp/B01JD8ZLBC">
-                Nature Relaxation TV
-              </A>
-            </H3>
-            <P className="text-base">
-              10,000+ installations across Android TV and Amazon TV
-            </P>
-            <Img
-              src="/images/natureTV.png"
-              alt="Nature Relaxation Android TV"
-              width="md"
-              caption="At request of the client, this app is no longer listed on the Google Play Store but remains available on the Amazon TV Store."
-            />
-            <P>This app for Nature Relaxation&trade; as part of my work at App Mastery Inc. It allows users to browse the video library, play videos (using exoplayer), and perform in-app purhcases.</P>
-            <P>Libraries: RxAndroid, ExoPlayer, Retrofit, OkHttp, Picasso, Moshi, Leanback</P>
-          </div>
-          <div id="dekkoo">
-            <H3 smallBottomMargin>
-              <A href="https://play.google.com/store/apps/details?id=co.appmastery.dekkooandroid">
-                Dekkoo TV
-              </A>
-            </H3>
-            <P className="text-base">
-              500+ installations
-            </P>
-            <Img
-              src="/images/dekkoo.png"
-              alt="Dekkoo Android TV"
-              width="md"
-            />
-            <P>This app for Dekkoo.com as part of my work at App Mastery Inc. It allows users to browse, search, and play videos from Dekkoo's video library. It supports adaptive playback using the ExoPlayer library.</P>
-            <P>Libraries: Retrofit, OkHttp, Picasso, Moshi, ExoPlayer, Leanback</P>
-          </div>
-        </div>
-        <div id="mobile">
-          <div id="reckoner">
-            <H3 smallBottomMargin>
-              <A href="https://play.google.com/store/apps/details?id=ca.thereckoner.thereckoner">
-                The Reckoner for Android
-              </A>
-            </H3>
-            <P className="text-base">
-              100+ installations with a 4.8 Star rating
-            </P>
-            <Img
-              src="/images/reckoner_android.png"
-              alt="Reckoner for Android"
-              width="md"
-            />
-            <P>This application was developed for my high school newspaper, <A href="https://www.thereckoner.ca">The Reckoner of MGCI</A>, and allows users to browse and read published articles. It fetches data from the site using Wordpress's REST API (wp-rest). Articles are displayed in a list of CardViews; individual articles are rendered by displaying custom formatted HTML inside a ScrollView.</P>
-            <P>Libraries: Gson, Firebase, Picasso, OkHttp, Butterkinife</P>
-          </div>
+        <div id="intro">
+          <P>The following are miscellaneous data visualizations I have worked on over the past few years. I tend to design my charts in a similar fashion to those featured in FiveThrityEight, The Ringer, or New York Times.</P>
+          <P>Technologies: D3.js, R (ggplot2), Python</P>
         </div>
       </section>
     </Layout>
