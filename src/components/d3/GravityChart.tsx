@@ -34,7 +34,7 @@ class GravityChart extends Component<Props> {
     const xFrom = function(d: any) { return d.usg_with } // data -> value
     const xScale = d3.scaleLinear().range([0, width]) // value -> display
     const xMapFrom = function(d: any) { return xScale(xFrom(d)) } // data -> display
-    const xAxis = d3.axisBottom().scale(xScale)
+    const xAxis = d3.axisBottom(xScale)
     const xTo = function(d: any) { return d.usg_without } // data -> value
     const xMapTo = function(d: any) { return xScale(xTo(d)) } // data -> display
 
@@ -42,12 +42,9 @@ class GravityChart extends Component<Props> {
     const yFrom = function(d: any) { return d.efg_with } // data -> value
     const yScale = d3.scaleLinear().range([height, 0]) // value -> display
     const yMapFrom = function(d: any) { return yScale(yFrom(d)) } // data -> display
-    const yAxis = d3.axisLeft().scale(yScale)
+    const yAxis = d3.axisLeft(yScale)
     const yTo = function(d: any) { return d.efg_without } // data -> value
     const yMapTo = function(d: any) { return yScale(yTo(d)) } // data -> display
-
-    // setup fill color
-    const cValue = function(d: any) { return d.correlation }
 
     // add the graph canvas to the body of the webpage
     const svg = d3
@@ -84,7 +81,7 @@ class GravityChart extends Component<Props> {
     // load data
     d3.csv('./data/curry.csv').then(function (data: any) {
       // change string (from CSV) into number format
-      data.forEach(function (d: any, _) {
+      data.forEach(function (d: any, _: any) {
         d.usg_with = +d.usg_with
         d.usg_without = +d.usg_without
         d.efg_with = +d.efg_with

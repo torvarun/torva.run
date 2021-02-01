@@ -54,7 +54,7 @@ export default function Page() {
           <P>The following are miscellaneous data visualizations I have worked on over the past few years. I tend to design my charts in a similar fashion to those featured in FiveThrityEight, The Ringer, or New York Times.</P>
           <P>Technologies: D3.js, R (ggplot2), Python</P>
         </div>
-        <GravityChart width="700"/>
+        <GravityChart width={700}/>
       </section>
     </Layout>
   )
