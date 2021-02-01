@@ -51,7 +51,7 @@ class GravityChart extends Component<Props> {
       .select('#gravityChart')
       .append('svg')
       .attr('width', width + margin.left + margin.right)
-      .attr('height', height + margin.top + margin.bottom + 100)
+      .attr('height', height + margin.top + margin.bottom)
       .append('g')
       .attr('class', 'g')
       .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
