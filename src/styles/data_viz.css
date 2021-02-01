@@ -1,0 +1,189 @@
+.land {
+  fill: #222;
+}
+
+.county-boundary {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .5px;
+}
+
+s .state-boundary {
+  fill: none;
+  stroke: black;
+}
+
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+.feature {
+  fill: #ccc;
+  cursor: pointer;
+}
+
+.feature.active {
+  fill: red;
+}
+
+.mesh {
+  fill: none;
+  stroke: black;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.meshCounty {
+  stroke: white;
+}
+
+.extraInfo {
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.stateTitle {
+  font-size: 20px;
+  font-weight: bolder;
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-family: Arial;
+  /*fill: blue;*/
+}
+
+.con2016 {
+  padding-top: 30px;
+}
+
+.con2012 {
+  padding-top: 80px;
+}
+
+div.tooltip {
+  color: #222;
+  background-color: #fff;
+  padding: .5em;
+  text-shadow: #f5f5f5 0 1px 0;
+  border-radius: 2px;
+  opacity: 0.9;
+  position: absolute;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.hidden {
+  display: none;
+}
+
+.centre {
+  margin: auto;
+  width: 900px;
+}
+
+#election-vis {
+  @font-face {
+    font-family: "Malgun";
+    src: url(/data/malgun.ttf) format("truetype");
+  }
+  font-family: Malgun !important;
+  /*background-color: #FFFFFF;*/
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #F0F0F0;
+}
+
+#scatter {
+  font: 11px sans-serif;
+}
+
+.scatter {
+  font: 11px sans-serif;
+}
+
+.g {
+  pointer-events: all;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+
+.scatter-tooltip {
+  color: #222;
+  background-color: #fff;
+  padding: .5em;
+  text-shadow: #f5f5f5 0 1px 0;
+  border-radius: 2px;
+  opacity: 0.9;
+  position: absolute;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.img-centre {
+  display: block;
+  margin: 0 auto;
+}
+
+.shot-chart {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.gravity {
+  font: 11px sans-serif;
+}
+.chart-title{
+  font:  20px sans-serif;
+  text-anchor: start;
+  /*text-decoration: underline;*/
+}
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.navbar-link{
+  color: #1d1d1d;
+  text-decoration: none;
+  font-weight: normal;
+}
+.navbar-link:active {
+  color: #1d1d1d;
+  font-weight: normal;
+}
+.navbar-link:hover {
+  color: #1d1d1d;
+  font-size: 110%;
+  font-weight: normal;
+}
+
+.navbar-name{
+  color: #1d1d1d;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 140%;
+}
+.navbar-name:hover{
+  text-decoration: none;
+  color: #1d1d1d;
+}
