@@ -1,6 +1,6 @@
-# (https://beta.torva.run)
+# (https://torva.run)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/706869b9-0649-4aed-88fa-f0fb749c8c40/deploy-status)](https://app.netlify.com/sites/torvarun-beta/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/706869b9-0649-4aed-88fa-f0fb749c8c40/deploy-status)](https://app.netlify.com/sites/torvarun/deploys)
 
 ## Development
 
