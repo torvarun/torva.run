@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from 'src/components/Layout'
 import Head from 'next/head'
 import { SITE_TITLE, SITE_URL, SITE_DESCRIPTION } from 'src/lib/constants'
-import { P, A, H3 } from 'src/components/Tags'
+import { P, A, H3, Img } from 'src/components/Tags'
 import GravityChart from 'src/components/d3/GravityChart'
 
 export default function Page() {
@@ -55,12 +55,20 @@ export default function Page() {
           <P>Technologies: D3.js, R (ggplot2), Python</P>
         </div>
         <div id="sports">
-            <H3 smallBottomMargin>Sports</H3>
-        <div id="gravity">
-          <P>This scatter plot created using D3.js shows the change in regular-season performace with/without Steph Curry for players on the 2017-18 Golden State Warriors. The was created to showcase <A href="https://thereckoner.ca/the-gravity-score/">Curry's 'gravity'</A>, his ability to create space (and therefore more favourable scoring chances) for teammates when on the floor.</P>
-          <P><A href="https://thereckoner.ca/the-gravity-score/">Featured Article</A></P>
-          <GravityChart width={600}/>
-        </div>
+          <H3 smallBottomMargin>Sports</H3>
+          <div id="shot_chart">
+            <P>Developed for a <A href="www.thereckoner.ca/demar-derozan-underrated-never-overlooked/">Reckoner article</A>, the first visualization is a shot chart of DeMar DeRozan from halfway through the 2016-17 NBA season. It was created with R (ggplot2), using data scraped (using the Python library BeautifulSoup) from the NBA Stats website. Shot location charts us to see where an offensive player takes (and makes) most of their shots; with this visualization, it's easy to see how proficient DeRozan is at the midrange shot, a rarity in today's NBA. Furthermore, the single-coordinate rug plots allows us to see that he is most successful at creating shots along the baseline.
+            </P>
+            <Img
+              src="/images/derozan_shot_chart.png"
+              alt="DeMar DeRozan shot chart"
+            />
+          </div>
+          <div id="gravity">
+            <P>This scatter plot created using D3.js shows the change in regular-season performace with/without Steph Curry for players on the 2017-18 Golden State Warriors. The was created to showcase <A href="https://thereckoner.ca/the-gravity-score/">Curry's 'gravity'</A>, his ability to create space (and therefore more favourable scoring chances) for teammates when on the floor.</P>
+            <P><A href="https://thereckoner.ca/the-gravity-score/">Featured Article</A></P>
+            <GravityChart width={600}/>
+          </div>
         </div>
       </section>
     </Layout>
