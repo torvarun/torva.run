@@ -4,6 +4,7 @@ import Head from 'next/head'
 import { SITE_TITLE, SITE_URL, SITE_DESCRIPTION } from 'src/lib/constants'
 import { P, A, H3, Img } from 'src/components/Tags'
 import GravityChart from 'src/components/d3/GravityChart'
+import LeafsLines from 'src/components/d3/LeafsLines'
 
 export default function Page() {
   return (
@@ -71,8 +72,7 @@ export default function Page() {
           </div>
           <div id="force">
             <P>The following force graph shows the common line pairings between Toronto Maple Leafs forwards during rhe first two months of the 2016-17 season. The size of the cirlce is proportional to a player's average time on ice, while the thickness of the lines is indicative of the lines represents the average time on ice a pair of players spend on the ice together. Colours represent the most common line pairings. It was developed using D3.js with data from Daily Faceoff.</P>
-            {// TODO 
-            }
+            <LeafsLines width={800}/>
           </div>
           <div id="rpm">
             <P>The following chart was created using R (ggplot2) and displays the real plus-minus (RPM) broken down by offensive (OPM) and defensive plus-minus (DPM) of players comparable to the Raptors' Serge Ibaka. It was developed for an article in <A href="https://www.thereckoner.ca/serge-ibaka-missing-in-action/">The Reckoner of MGCI.</A></P>
