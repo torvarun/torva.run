@@ -1,0 +1,475 @@
+{
+	"nodes":[
+		{"id": "Matthews", "group": 1, "toi": 949},
+		{"id": "Hyman", "group": 1, "toi": 841},
+		{"id": "Nylander", "group": 1, "toi": 893},
+		{"id": "Komarov", "group": 2, "toi": 746},
+		{"id": "Kadri", "group": 2, "toi": 827},
+		{"id": "Marleau", "group": 2, "toi": 808},
+		{"id": "van Riemsdyk", "group": 3, "toi": 690},
+		{"id": "Bozak", "group": 3, "toi": 741},
+		{"id": "Marner", "group": 3, "toi": 755},
+		{"id": "Martin", "group": 4, "toi": 491},
+		{"id": "Moore", "group": 4, "toi": 549},
+		{"id": "Brown", "group": 4, "toi": 672},
+		{"id": "Leivo", "group": 5, "toi": 555},
+		{"id": "Soshnikov", "group": 5, "toi": 583}
+	],
+	"links":[
+		{
+		   "source": "Leivo",
+		   "target": "Marleau",
+		   "strength": 5.966666667
+		 },
+		 {
+		   "source": "Leivo",
+		   "target": "Martin",
+		   "strength": 19.51666667
+		 },
+		 {
+		   "source": "Leivo",
+		   "target": "van Riemsdyk",
+		   "strength": 0.6
+		 },
+		 {
+		   "source": "Leivo",
+		   "target": "Bozak",
+		   "strength": 3.083333333
+		 },
+		 {
+		   "source": "Leivo",
+		   "target": "Hyman",
+		   "strength": 0.55
+		 },
+		 {
+		   "source": "Leivo",
+		   "target": "Kadri",
+		   "strength": 10.4
+		 },
+		 {
+		   "source": "Leivo",
+		   "target": "Komarov",
+		   "strength": 9.25
+		 },
+		 {
+		   "source": "Leivo",
+		   "target": "Marner",
+		   "strength": 5.216666667
+		 },
+		 {
+		   "source": "Leivo",
+		   "target": "Matthews",
+		   "strength": 0.683333333
+		 },
+		 {
+		   "source": "Leivo",
+		   "target": "Moore",
+		   "strength": 25.45
+		 },
+		 {
+		   "source": "Leivo",
+		   "target": "Nylander",
+		   "strength": 1.433333333
+		 },
+		 {
+		   "source": "Leivo",
+		   "target": "Brown",
+		   "strength": 1.283333333
+		 },
+		 {
+		   "source": "Leivo",
+		   "target": "Soshnikov",
+		   "strength": 0
+		 },
+		 {
+		   "source": "Marleau",
+		   "target": "Martin",
+		   "strength": 1.45
+		 },
+		 {
+		   "source": "Marleau",
+		   "target": "van Riemsdyk",
+		   "strength": 30.95
+		 },
+		 {
+		   "source": "Marleau",
+		   "target": "Bozak",
+		   "strength": 18.9
+		 },
+		 {
+		   "source": "Marleau",
+		   "target": "Hyman",
+		   "strength": 48.06666667
+		 },
+		 {
+		   "source": "Marleau",
+		   "target": "Kadri",
+		   "strength": 134.3166667
+		 },
+		 {
+		   "source": "Marleau",
+		   "target": "Komarov",
+		   "strength": 134.4166667
+		 },
+		 {
+		   "source": "Marleau",
+		   "target": "Marner",
+		   "strength": 38.35
+		 },
+		 {
+		   "source": "Marleau",
+		   "target": "Matthews",
+		   "strength": 11.33333333
+		 },
+		 {
+		   "source": "Marleau",
+		   "target": "Moore",
+		   "strength": 4.35
+		 },
+		 {
+		   "source": "Marleau",
+		   "target": "Nylander",
+		   "strength": 21.73333333
+		 },
+		 {
+		   "source": "Marleau",
+		   "target": "Brown",
+		   "strength": 71.25
+		 },
+		 {
+		   "source": "Marleau",
+		   "target": "Soshnikov",
+		   "strength": 0.433333333
+		 },
+		 {
+		   "source": "Martin",
+		   "target": "van Riemsdyk",
+		   "strength": 2.6
+		 },
+		 {
+		   "source": "Martin",
+		   "target": "Bozak",
+		   "strength": 39.68333333
+		 },
+		 {
+		   "source": "Martin",
+		   "target": "Hyman",
+		   "strength": 3.483333333
+		 },
+		 {
+		   "source": "Martin",
+		   "target": "Kadri",
+		   "strength": 7.016666667
+		 },
+		 {
+		   "source": "Martin",
+		   "target": "Komarov",
+		   "strength": 6.166666667
+		 },
+		 {
+		   "source": "Martin",
+		   "target": "Marner",
+		   "strength": 73.7
+		 },
+		 {
+		   "source": "Martin",
+		   "target": "Matthews",
+		   "strength": 8.983333333
+		 },
+		 {
+		   "source": "Martin",
+		   "target": "Moore",
+		   "strength": 80.93333333
+		 },
+		 {
+		   "source": "Martin",
+		   "target": "Nylander",
+		   "strength": 3.883333333
+		 },
+		 {
+		   "source": "Martin",
+		   "target": "Brown",
+		   "strength": 40.48333333
+		 },
+		 {
+		   "source": "Martin",
+		   "target": "Soshnikov",
+		   "strength": 7.783333333
+		 },
+		 {
+		   "source": "van Riemsdyk",
+		   "target": "Bozak",
+		   "strength": 161
+		 },
+		 {
+		   "source": "van Riemsdyk",
+		   "target": "Hyman",
+		   "strength": 1.516666667
+		 },
+		 {
+		   "source": "van Riemsdyk",
+		   "target": "Kadri",
+		   "strength": 9.166666667
+		 },
+		 {
+		   "source": "van Riemsdyk",
+		   "target": "Komarov",
+		   "strength": 2.85
+		 },
+		 {
+		   "source": "van Riemsdyk",
+		   "target": "Marner",
+		   "strength": 120.9666667
+		 },
+		 {
+		   "source": "van Riemsdyk",
+		   "target": "Matthews",
+		   "strength": 5.633333333
+		 },
+		 {
+		   "source": "van Riemsdyk",
+		   "target": "Moore",
+		   "strength": 14.56666667
+		 },
+		 {
+		   "source": "van Riemsdyk",
+		   "target": "Nylander",
+		   "strength": 9.383333333
+		 },
+		 {
+		   "source": "van Riemsdyk",
+		   "target": "Brown",
+		   "strength": 72.38333333
+		 },
+		 {
+		   "source": "van Riemsdyk",
+		   "target": "Soshnikov",
+		   "strength": 0.766666667
+		 },
+		 {
+		   "source": "Bozak",
+		   "target": "Hyman",
+		   "strength": 8.766666667
+		 },
+		 {
+		   "source": "Bozak",
+		   "target": "Kadri",
+		   "strength": 4.883333333
+		 },
+		 {
+		   "source": "Bozak",
+		   "target": "Komarov",
+		   "strength": 6.733333333
+		 },
+		 {
+		   "source": "Bozak",
+		   "target": "Marner",
+		   "strength": 164.7166667
+		 },
+		 {
+		   "source": "Bozak",
+		   "target": "Matthews",
+		   "strength": 4.1
+		 },
+		 {
+		   "source": "Bozak",
+		   "target": "Moore",
+		   "strength": 7.816666667
+		 },
+		 {
+		   "source": "Bozak",
+		   "target": "Nylander",
+		   "strength": 8.25
+		 },
+		 {
+		   "source": "Bozak",
+		   "target": "Brown",
+		   "strength": 52.1
+		 },
+		 {
+		   "source": "Bozak",
+		   "target": "Soshnikov",
+		   "strength": 0.65
+		 },
+		 {
+		   "source": "Hyman",
+		   "target": "Kadri",
+		   "strength": 12.6
+		 },
+		 {
+		   "source": "Hyman",
+		   "target": "Komarov",
+		   "strength": 9.05
+		 },
+		 {
+		   "source": "Hyman",
+		   "target": "Marner",
+		   "strength": 5.35
+		 },
+		 {
+		   "source": "Hyman",
+		   "target": "Matthews",
+		   "strength": 201.9166667
+		 },
+		 {
+		   "source": "Hyman",
+		   "target": "Moore",
+		   "strength": 10.71666667
+		 },
+		 {
+		   "source": "Hyman",
+		   "target": "Nylander",
+		   "strength": 197.65
+		 },
+		 {
+		   "source": "Hyman",
+		   "target": "Brown",
+		   "strength": 59.48333333
+		 },
+		 {
+		   "source": "Hyman",
+		   "target": "Soshnikov",
+		   "strength": 0
+		 },
+		 {
+		   "source": "Kadri",
+		   "target": "Komarov",
+		   "strength": 222.5
+		 },
+		 {
+		   "source": "Kadri",
+		   "target": "Marner",
+		   "strength": 14.4
+		 },
+		 {
+		   "source": "Kadri",
+		   "target": "Matthews",
+		   "strength": 6.633333333
+		 },
+		 {
+		   "source": "Kadri",
+		   "target": "Moore",
+		   "strength": 5.583333333
+		 },
+		 {
+		   "source": "Kadri",
+		   "target": "Nylander",
+		   "strength": 59.41666667
+		 },
+		 {
+		   "source": "Kadri",
+		   "target": "Brown",
+		   "strength": 34.85
+		 },
+		 {
+		   "source": "Kadri",
+		   "target": "Soshnikov",
+		   "strength": 0.15
+		 },
+		 {
+		   "source": "Komarov",
+		   "target": "Marner",
+		   "strength": 2.016666667
+		 },
+		 {
+		   "source": "Komarov",
+		   "target": "Matthews",
+		   "strength": 6.966666667
+		 },
+		 {
+		   "source": "Komarov",
+		   "target": "Moore",
+		   "strength": 12.51666667
+		 },
+		 {
+		   "source": "Komarov",
+		   "target": "Nylander",
+		   "strength": 54.85
+		 },
+		 {
+		   "source": "Komarov",
+		   "target": "Brown",
+		   "strength": 24.86666667
+		 },
+		 {
+		   "source": "Komarov",
+		   "target": "Soshnikov",
+		   "strength": 0.683333333
+		 },
+		 {
+		   "source": "Marner",
+		   "target": "Matthews",
+		   "strength": 16.93333333
+		 },
+		 {
+		   "source": "Marner",
+		   "target": "Moore",
+		   "strength": 30.01666667
+		 },
+		 {
+		   "source": "Marner",
+		   "target": "Nylander",
+		   "strength": 5.966666667
+		 },
+		 {
+		   "source": "Marner",
+		   "target": "Brown",
+		   "strength": 4.683333333
+		 },
+		 {
+		   "source": "Marner",
+		   "target": "Soshnikov",
+		   "strength": 0
+		 },
+		 {
+		   "source": "Matthews",
+		   "target": "Moore",
+		   "strength": 1.3
+		 },
+		 {
+		   "source": "Matthews",
+		   "target": "Nylander",
+		   "strength": 208.25
+		 },
+		 {
+		   "source": "Matthews",
+		   "target": "Brown",
+		   "strength": 13.58333333
+		 },
+		 {
+		   "source": "Matthews",
+		   "target": "Soshnikov",
+		   "strength": 0
+		 },
+		 {
+		   "source": "Moore",
+		   "target": "Nylander",
+		   "strength": 4.333333333
+		 },
+		 {
+		   "source": "Moore",
+		   "target": "Brown",
+		   "strength": 36.05
+		 },
+		 {
+		   "source": "Moore",
+		   "target": "Soshnikov",
+		   "strength": 8.5
+		 },
+		 {
+		   "source": "Nylander",
+		   "target": "Brown",
+		   "strength": 1.733333333
+		 },
+		 {
+		   "source": "Nylander",
+		   "target": "Soshnikov",
+		   "strength": 0
+		 },
+		 {
+		   "source": "Brown",
+		   "target": "Soshnikov",
+		   "strength": 0.366666667
+		 }
+	]
+}

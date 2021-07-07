@@ -5,7 +5,7 @@ import Meta from 'src/components/Meta'
 
 export type Props = {
   children: React.ReactNode
-  type: 'home' | 'post' | 'archive' | 'android'
+  type: 'home' | 'post' | 'archive' | 'android' | 'data'
 }
 
 export default function Layout({ children, type }: Props) {
