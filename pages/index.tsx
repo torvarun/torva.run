@@ -60,16 +60,18 @@ export default function Page() {
           <Li>
             CS & English Literature at UWaterloo
           </Li>
+          {/*
           <Li>
             Bylines in <i>Macleans</i>, <i>Imprint</i>
           </Li>
+          */}
           <Li>
-            Currently building out <A href="https://source.android.com/devices/automotive/start/what_automotive">Android Automotive</A> at Ford
+            Currently building out <A href="https://play.google.com/store/apps/details?id=com.splunk.android.alerts">mobile data visualizations</A> at Splunk
           </Li>
           <Li>
-            Previously worked on <A href="https://source.android.com/security/trusty">Trusty TEE</A>{" at Huawei, "}
+            Previously worked on <A href="https://source.android.com/devices/automotive/start/what_automotive">Android Automotive</A> at Ford, <A href="https://source.android.com/security/trusty">Trusty TEE</A>{" at Huawei, "}
             <A href="https://www.qualcomm.com/products/snapdragon-865-5g-mobile-platform">Snapdragon</A>{" at Qualcomm, "}
-            <A href="https://github.com/torvarun/gr-pv">radios</A>{" at Per Vices "}
+            <A href="https://github.com/torvarun/gr-pv">software defined radios</A>{" at Per Vices "}
           </Li>
         </Ul>
         <H3 smallBottomMargin>Links</H3>
@@ -88,7 +90,7 @@ export default function Page() {
           </Li>
           <Li>
             LinkedIn:{' '}
-            <A href="https://linkedin.com/in/torvarun">/in/torvarun</A>
+            <A href="https://ca.linkedin.com/in/torvarun">/in/torvarun</A>
           </Li>
         </Ul>
       </section>
